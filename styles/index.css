@@ -12,6 +12,8 @@
     min-height: 100vh; /* Set minimum height for full viewport */
     margin: 0; /* Remove default body margins */
     font-family: var(--font2); /* Set a default font from your root variables */
+    margin: auto; /* Set margins to automatically center */
+    text-align: center;
   }
   
   #container { /* Style for content container */
@@ -35,4 +37,20 @@
     text-align: center; /* Center text within the square */
     background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url(../images/welcome.gif);
   }
+
+  header {
+    display: flex; /* Allow horizontal positioning of elements */
+    justify-content: flex-end; /* Align elements to the right */
+    padding: 10px;
+  }
+  
+  #pages li {
+    margin-bottom: 50px; /* Add margin to the right of each list item */
+  }
+  
+  /* Optional: Remove the default bullet points */
+  #pages li {
+    list-style: none; /* Remove bullet points */
+  }
+  
   
