@@ -1,0 +1,34 @@
+:root {
+    --grey: #fafafa;
+    --font1: "Oswald";
+    --font2: "Montserrat";
+    --font3: "Roboto";
+  }
+  
+  body {
+    display: flex; /* Makes body a flexbox container for vertical centering */
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Centers content vertically within the viewport */
+    align-items: center; /* Centers content horizontally */
+    min-height: 100vh; /* Makes body take full viewport height */
+    margin: 0; /* Removes default body margin */
+    font-family: Arial, sans-serif; /* Sets a basic font */
+  }
+
+  h1 {
+    margin-bottom: 20px; /* Adds some space between title and button */
+  }
+
+  button {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #4CAF50; /* Change button color if desired */
+    color: white; /* Change button text color if desired */
+    border: none;
+    border-radius: 5px; /* Add some rounded corners */
+    cursor: pointer; /* Make it clear it's a button */
+  }
+
+  p { /* Use <p> tag for paragraph */
+    text-align: center; /* Center text horizontally */
+    margin-top: 10px; /* Add some space between button and text */
+  }
