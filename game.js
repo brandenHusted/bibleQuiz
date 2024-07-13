@@ -14,6 +14,51 @@ document.addEventListener('DOMContentLoaded', () => {
         question: "What is 2 + 2?",
         answers: ["3", "4", "5", "6"],
         correct: "4"
+      },
+      {
+        question: "Which person is not a member of Outreach as of July 2024?",
+        answers: ["Josiah Magley", "Justin Lilley", "Kristin VanBeveren", "Bob Husted"],
+        correct: "Bob Husted"
+      },
+      {
+        question: "What is the capital of France?",
+        answers: ["Berlin", "Madrid", "Paris", "Rome"],
+        correct: "Paris"
+      },
+      {
+        question: "What is 2 + 2?",
+        answers: ["3", "4", "5", "6"],
+        correct: "4"
+      },
+      {
+        question: "Which person is not a member of Outreach as of July 2024?",
+        answers: ["Josiah Magley", "Justin Lilley", "Kristin VanBeveren", "Bob Husted"],
+        correct: "Bob Husted"
+      },
+      {
+        question: "What is the capital of France?",
+        answers: ["Berlin", "Madrid", "Paris", "Rome"],
+        correct: "Paris"
+      },
+      {
+        question: "What is 2 + 2?",
+        answers: ["3", "4", "5", "6"],
+        correct: "4"
+      },
+      {
+        question: "Which person is not a member of Outreach as of July 2024?",
+        answers: ["Josiah Magley", "Justin Lilley", "Kristin VanBeveren", "Bob Husted"],
+        correct: "Bob Husted"
+      },
+      {
+        question: "What is the capital of France?",
+        answers: ["Berlin", "Madrid", "Paris", "Rome"],
+        correct: "Paris"
+      },
+      {
+        question: "What is 2 + 2?",
+        answers: ["3", "4", "5", "6"],
+        correct: "4"
       }
     ];
   
@@ -66,12 +111,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event listener for the "Next" button
     nextButton.addEventListener('click', () => {
       currentQuestionIndex++;
-      if (currentQuestionIndex < shuffledQuestions.length) {
+      if (currentQuestionIndex <= 9) {
         loadQuestion(currentQuestionIndex);
         nextButton.style.visibility = 'hidden'; // Hide the "Next" button until an answer is selected
       } else {
         alert('You have completed the quiz!');
         nextButton.style.visibility = 'hidden'; // Hide the "Next" button at the end of the quiz
+        window.location.href = 'complete.html';
       }
     });
   
