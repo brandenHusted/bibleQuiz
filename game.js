@@ -3,63 +3,64 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         question: "Which person is not a member of Outreach as of July 2024?",
         answers: ["Josiah Magley", "Justin Lilley", "Kristin VanBeveren", "Bob Husted"],
-        correct: "Bob Husted"
-      },
-      {
-        question: "What is the capital of France?",
-        answers: ["Berlin", "Madrid", "Paris", "Rome"],
-        correct: "Paris"
-      },
-      {
-        question: "What is 2 + 2?",
-        answers: ["3", "4", "5", "6"],
-        correct: "4"
+        correct: "Bob Husted",
+        reason: "There is no Bob Husted as of 2024 at Outreach Christian Church."
       },
       {
         question: "Which person is not a member of Outreach as of July 2024?",
-        answers: ["Josiah Magley", "Justin Lilley", "Kristin VanBeveren", "Bob Husted"],
-        correct: "Bob Husted"
+        answers: ["Robin Husted", "Fred Lab", "Michael Beethoven", "Rebecca Haller Leiter"],
+        correct: "Michael Beethoven",
+        reason: "Michael VanBeveren goes to Outreach Christian Church not Michael Beethoven. Rebecca Haller Leiter is a new member to Outreach. Fred Lab is the pastor of Outreach and Robin Husted is a regular member of Outreach. "
       },
       {
-        question: "What is the capital of France?",
-        answers: ["Berlin", "Madrid", "Paris", "Rome"],
-        correct: "Paris"
+        question: "Who is the pastor at Outreach Christian Church?",
+        answers: ["Justin Lilley", "Fred Lab", "Kelly Maatman", "Branden Husted"],
+        correct: "Fred Lab",
+        reason: "Justin Lilley is the youth pastor, Kelly Maatman is the Administrative Assistant. Fred Lab is the pastor! Branden Husted is me the developer of this game and a member of Outreach."
       },
       {
-        question: "What is 2 + 2?",
-        answers: ["3", "4", "5", "6"],
-        correct: "4"
-      },
-      {
-        question: "Which person is not a member of Outreach as of July 2024?",
-        answers: ["Josiah Magley", "Justin Lilley", "Kristin VanBeveren", "Bob Husted"],
-        correct: "Bob Husted"
-      },
-      {
-        question: "What is the capital of France?",
-        answers: ["Berlin", "Madrid", "Paris", "Rome"],
-        correct: "Paris"
-      },
-      {
-        question: "What is 2 + 2?",
-        answers: ["3", "4", "5", "6"],
-        correct: "4"
+        question: "What time is youth group at Outreach?",
+        answers: ["Thursday 5-8pm", "Sunday 5-7pm", "Tuesday 6-7pm", "Sunday 9-10am"],
+        correct: "Sunday 5-7pm",
+        reason: "On Outreach's website OCC Youth is at Sunday 5-7pm at the church building."
       },
       {
         question: "Which person is not a member of Outreach as of July 2024?",
-        answers: ["Josiah Magley", "Justin Lilley", "Kristin VanBeveren", "Bob Husted"],
-        correct: "Bob Husted"
+        answers: ["AL Husted", "Johnerica Daniels", "Emily Lawhead", "Austin Pratt"],
+        correct: "Austin Pratt",
+        reason: "Austin Pratt is not a regular member of Outreach. Everyone else is a regular member."
+      },
+       // need more questions
+      {
+        question: "Who is the pastor at Outreach Christian Church?",
+        answers: ["Justin Lilley", "Fred Lab", "Kelly Maatman", "Branden Husted"],
+        correct: "Fred Lab",
+        reason: "Justin Lilley is the youth pastor, Kelly Maatman is the Administrative Assistant. Fred Lab is the pastor! Branden Husted is me the developer of this game and a member of Outreach."
       },
       {
-        question: "What is the capital of France?",
-        answers: ["Berlin", "Madrid", "Paris", "Rome"],
-        correct: "Paris"
+        question: "What time is youth group at Outreach?",
+        answers: ["Thursday 5-8pm", "Sunday 5-7pm", "Tuesday 6-7pm", "Sunday 9-10am"],
+        correct: "Sunday 5-7pm",
+        reason: "On Outreach's website OCC Youth is at Sunday 5-7pm at the church building."
       },
       {
-        question: "What is 2 + 2?",
-        answers: ["3", "4", "5", "6"],
-        correct: "4"
-      }
+        question: "Which person is not a member of Outreach as of July 2024?",
+        answers: ["Robin Husted", "Fred Lab", "Michael Beethoven", "Rebecca Haller Leiter"],
+        correct: "Michael Beethoven",
+        reason: "Michael VanBeveren goes to Outreach Christian Church not Michael Beethoven. Rebecca Haller Leiter is a new member to Outreach. Fred Lab is the pastor of Outreach and Robin Husted is a regular member of Outreach. "
+      },
+      {
+        question: "Who is the pastor at Outreach Christian Church?",
+        answers: ["Justin Lilley", "Fred Lab", "Kelly Maatman", "Branden Husted"],
+        correct: "Fred Lab",
+        reason: "Justin Lilley is the youth pastor, Kelly Maatman is the Administrative Assistant. Fred Lab is the pastor! Branden Husted is me the developer of this game and a member of Outreach."
+      },
+      {
+        question: "What time is youth group at Outreach?",
+        answers: ["Thursday 5-8pm", "Sunday 5-7pm", "Tuesday 6-7pm", "Sunday 9-10am"],
+        correct: "Sunday 5-7pm",
+        reason: "On Outreach's website OCC Youth is at Sunday 5-7pm at the church building."
+      },
     ];
   
     let currentQuestionIndex = 0;
