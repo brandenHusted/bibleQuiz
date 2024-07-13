@@ -37,3 +37,24 @@
     text-align: center; /* Center text horizontally */
     margin-top: 10px; /* Add some space between button and text */
   }
+
+  #quiz-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    color: black;
+  }
+  
+  #answers-container button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  #next-button {
+    margin-top: 20px;
+  }
