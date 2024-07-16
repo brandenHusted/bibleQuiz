@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Hide buttons initially
   nextButton.style.visibility = "hidden";
   explanationButton.style.visibility = "hidden";
-
+  answersContainer.style.visibility = "visible";
 
   // Function to shuffle array elements
   function shuffleArray(array) {
@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (selectedAnswer === correctAnswer) {
       points++;
     } 
+    answersContainer.style.visibility = "hidden";
     explanationButton.onclick = () => showExplanation(reason);
     nextButton.style.visibility = 'visible'; // Show the "Next" button
     explanationButton.style.visibility = 'visible'; // Show the "Show Explanation" button
@@ -100,6 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Event listener for the "Next" button
   nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
+    answersContainer.style.visibility = "visible";
     if (currentQuestionIndex < shuffledQuestions.length) {
       loadQuestion(currentQuestionIndex);
       nextButton.style.visibility = 'hidden'; // Hide the "Next" button until an answer is selected
