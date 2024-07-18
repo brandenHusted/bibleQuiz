@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +7,22 @@
   <title>Outreach Christian Church Community Game!</title>
   <link rel="stylesheet" href="styles/community.css">
   <script defer src="game.js"></script>
+  <style>
+    #progress-container {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #f3f3f3;
+    }
+    #progress-bar {
+      width: 0;
+      height: 20px;
+      background-color: #4caf50;
+      text-align: center;
+      color: white;
+    }
+  </style>
 </head>
-
 <body>
   <div id="quiz-container">
     <p id="question-text">Loading...</p>
@@ -18,7 +31,10 @@
     <button id="explanation-button">Show Explanation</button>
     <p id="explanation-text" style="display: none;"></p>
   </div>
+  <div id="progress-container">
+    <div id="progress-bar">0%</div>
+  </div>
 </body>
-
 </html>
+
 

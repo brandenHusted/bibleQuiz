@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const scoreContainer = document.getElementById('score-container');
   const scorePercentage = document.getElementById('score-percentage');
   const explanationButton = document.getElementById('explanation-button');
+  const progressBar = document.getElementById('progress-bar');
   let points = 0;
 
   // Hide buttons initially
@@ -53,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
+      // swaps index randomly to simulate randomly chosen questions
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
@@ -98,6 +100,14 @@ document.addEventListener('DOMContentLoaded', () => {
     alert(reason);
   }
 
+  // Function to update the progress bar
+  function updateProgressBar(currentIndex) {
+    const progressPercentage = ((currentIndex + 1) / 10) * 100;
+    progressBar.style.width = `${progressPercentage}%`;
+    progressBar.textContent = `${currentIndex + 1}/10`;
+  }
+
+
   // Event listener for the "Next" button
   nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
@@ -106,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
       loadQuestion(currentQuestionIndex);
       nextButton.style.visibility = 'hidden'; // Hide the "Next" button until an answer is selected
       explanationButton.style.visibility = 'hidden';
+      updateProgressBar(currentQuestionIndex);
     } else {
       nextButton.style.visibility = 'hidden'; // Hide the "Next" button at the end of the quiz
       explanationButton.style.visibility = 'hidden';
@@ -116,4 +127,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load the first question
   loadQuestion(currentQuestionIndex);
+  updateProgressBar(currentQuestionIndex);
 });
