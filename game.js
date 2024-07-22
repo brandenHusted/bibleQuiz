@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function showExplanation(reason) {
     alert(reason);
   }
-
+  // makes timer count down
   function startTimer(duration) {
     timeRemaining = duration;
     timerInterval = setInterval(() => {
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (timeRemaining <= 0) {
         clearInterval(timerInterval);
         alert("Time's up!");
-        displayScore(0);
+        displayScore(0); // score is set to 0
 
       }
     }, 1000); // 1000 milliseconds (1 second)
