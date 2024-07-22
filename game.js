@@ -217,6 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   let currentQuestionIndex = 0;
+  let timerInterval;
   let difficulty = 'easy'; // Initial difficulty level
   let questionsAnswered = 0;
   const questionText = document.getElementById('question-text');
@@ -226,6 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const scorePercentage = document.getElementById('score-percentage');
   const explanationButton = document.getElementById('explanation-button');
   const progressBar = document.getElementById('progress-bar');
+  let timeRemaining;
   let points = 0;
   // shuffles questions based on difficulty
   let questionsPool = shuffleArray(quizData[difficulty]);
@@ -243,7 +245,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     return array;
   }
-
+  // handle timer
+  startTimer(60);
   // Function to load a question and its answers
   function loadQuestion() {
     if (questionsPool.length === 0) {
@@ -294,11 +297,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const scorePercentageValue = (points / 10) * 100;
     localStorage.setItem('scorePercentage', scorePercentageValue.toFixed(2));
     window.location.href = 'complete.html'; // Redirect to complete page
+    clearInterval(timerInterval);
   }
 
   // Function to show the explanation
   function showExplanation(reason) {
     alert(reason);
+  }
+
+  function startTimer(duration) {
+    timeRemaining = duration;
+    timerInterval = setInterval(() => {
+      timeRemaining--;
+      document.getElementById("time-remaining").textContent = timeRemaining;
+      if (timeRemaining <= 0) {
+        clearInterval(timerInterval);
+        alert("Time's up!");
+        displayScore(0);
+
+      }
+    }, 1000); // 1000 milliseconds (1 second)
   }
 
   // Function to update the progress bar
@@ -321,6 +339,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nextButton.style.visibility = 'hidden'; // Hide the "Next" button at the end of the quiz
       explanationButton.style.visibility = 'hidden';
       displayScore(points);
+      window.location.href = 'complete.html';
     }
   });
 
