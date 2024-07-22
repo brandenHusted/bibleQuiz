@@ -58,9 +58,21 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         question: "Do we use grape juice or real wine at Outreach for communion?",
-        answers: ["Grape juice", "real wine", "depends on who you ask"],
+        answers: ["Grape juice", "Real wine", "Depends on who you ask"],
         correct: "Grape juice",
         reason: "We use grape juice at Outreach during communion."
+      },
+      {
+        question: "Do we beleive in the trinity at outreach?",
+        answers: ["Yes", "No"],
+        correct: "Yes",
+        reason: "We beleive in the trinity, God is God, Jesus, and the Holy Spirit all at the same time."
+      },
+      {
+        question: "What is Outreach's Phone Number?",
+        answers: ["616-374-0115", "616-374-7110", "616-374-9887"],
+        correct: "616-374-0115",
+        reason: "This number is the number to contact Outreach Christian Church."
       }
     ],
     medium: [
@@ -125,6 +137,12 @@ document.addEventListener('DOMContentLoaded', () => {
         correct: "No",
         reason: "At Outreach we use the Bible in everything that we preach and the Bible has some very hard lessons that we take very seriously. You will learn more about God and how to walk as a Christian in your daily life here at Outreach.",
       },
+      {
+        question: "Justin Lilley has been playing on a worship team since 4th grade.",
+        answers: ["True", "False"],
+        correct: "True",
+        reason: "Justin loves to play in our worship band. He loves playing drums, guitar, piano, and singing.",
+      },
     ],
     hard: [
       {
@@ -186,6 +204,12 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Turtle", "Ring-necked Pheasant", "Ostrich", "Bear", "Muskox"],
         correct: "Turtle",
         reason: "At the annual wild game dinner at Outreach turtle was served when I last went and none of the other wild game meat was served."
+      },
+      {
+        question: "How long has Fred been the pastor of Outreach Christian Church since 2024?",
+        answers: ["22 Years", "21 Years", "25 years", "23 years", "19 years"],
+        correct: "22 years",
+        reason: "Fred has been the pastor at Outreach since October 2002. From this year in 2024 that would be 22 years."
       },
       
       
