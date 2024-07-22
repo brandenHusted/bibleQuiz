@@ -245,6 +245,20 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Fred has been the pastor at Outreach since October 2002. From this year in 2024 that would be 22 years.",
         mode: "hard"
       },
+      {
+        question: "When is the Annual Congregational Meeting in 2025?",
+        answers: ["January", "June", "March", "December", "August"],
+        correct: "January",
+        reason: "The annual Congregational Meeting in 2025 will be in January.",
+        mode: "hard"
+      },
+      {
+        question: "What organization support Outreach Christian Church?",
+        answers: ["Go Ministries", "Her House", "Workers for African Missions", "Boy Scouts"],
+        correct: "Go Ministries seeks to empower passionate, Local Leaders serving inside their cultures to Redeem people, Renew communities and Restore Creation by developing dynamic International Partnerships in Ministry that result in mutual transformation.",
+        reason: "Go Ministries",
+        mode: "hard"
+      },
       
       
     ],
@@ -258,8 +272,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const answersContainer = document.getElementById('answers-container');
   const nextButton = document.getElementById('next-button');
   const difficultyMode = document.getElementById('difficulty-mode');
-  const scoreContainer = document.getElementById('score-container');
-  const scorePercentage = document.getElementById('score-percentage');
   const explanationButton = document.getElementById('explanation-button');
   const progressBar = document.getElementById('progress-bar');
   let timeRemaining;
