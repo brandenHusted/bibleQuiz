@@ -334,6 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function adjustDifficulty() {
     const scorePercentage = (points / questionsAnswered) * 100;
     if (scorePercentage >= 80 && difficulty !== 'hard') {
+      // If the condition is true (i.e., difficulty is 'easy'), then difficulty is set to 'medium' or If the condition is false (i.e., difficulty is not 'easy'), then difficulty is set to 'hard'.
       difficulty = difficulty === 'easy' ? 'medium' : 'hard';
       questionsPool = shuffleArray(quizData[difficulty]);
     } else if (scorePercentage < 50 && difficulty !== 'easy') {
