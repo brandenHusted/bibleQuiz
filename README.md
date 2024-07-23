@@ -12,7 +12,7 @@ https://visualstudio.microsoft.com/downloads/
 Then with this done open Visual Studio Code. 
 Go to this Page and click on the green button with Code on it. make sure Your on HTTPS and Copy the Url to your clipboard. 
 
-Now go back to Visual Studio Code and decide you want to put this folder. Once you do that type in the terminal
+Now go back to Visual Studio Code and decide where you want to put this folder. Once you do that type in the terminal
 git clone (paste Url).
 
 This will give you all my Code on your machine and you can have everything I had. 
