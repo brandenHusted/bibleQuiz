@@ -4,6 +4,21 @@ Opening website:
 
 You can do this by double clicking index.html or if you do not have visual studio and can not start up the server to enter your email and password into the database you can just double click game.html to go straight to the game.
 
+Download Github onto your computer:
+Go here to download Git https://git-scm.com/download/win
+Download the 64 bit installer
+You can use this guide to help through the set up process
+https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/
+
+Go here to download chocolatey. Chocolatey is a package manager for Windows, designed to help you automate the installation, updating, and management of software on your Windows system. 
+https://community.chocolatey.org/courses/installation/installing?method=installing-chocolatey#cmd
+Go to basic chocolatey install
+Use cmd.exe and copy the code
+Open your command Prompt on your computer and right click and run as administrator
+paste the code and hit enter
+When it is finished downloading type
+choco install git
+github should now be installed on your device
 downloading Visual Studio Code:
 
 Visual Studio Code is a very useful tool with developing websites. I recommend using a computer not a phone for this step. You can download this here: 
