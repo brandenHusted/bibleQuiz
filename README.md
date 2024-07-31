@@ -6,7 +6,7 @@ You can do this by double clicking index.html or if you do not have visual studi
 
 Download Github onto your computer:
 Go here to download Git https://git-scm.com/download/win
-Download the 64 bit installer.
+Download the 64 bit windows setup installer.
 You can use this guide to help through the set up process.
 https://www.geeksforgeeks.org/how-to-install-git-on-windows-command-line/
 
