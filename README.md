@@ -15,10 +15,10 @@ https://community.chocolatey.org/courses/installation/installing?method=installi
 Go to basic chocolatey install.
 Use cmd.exe and copy the code.
 Open your command Prompt on your computer and right click and run as administrator.
-paste the code and hit enter.
-When it is finished downloading type.
-choco install git
-github should now be installed on your device.
+Paste the code and hit enter.
+When it is finished downloading type
+'choco install git'
+Github should now be installed on your device.
 downloading Visual Studio Code:
 
 Visual Studio Code is a very useful tool with developing websites. I recommend using a computer not a phone for this step. You can download this here: 
