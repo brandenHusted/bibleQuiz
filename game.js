@@ -208,6 +208,14 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
         mode: "hard"
       },
+      {
+        question: "Who said in the Bible am I my brother's keeper?",
+        answers: ["Cain", "Moses", "Abel", "Noah", "Elijah"],
+        correct: "Cain",
+        reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
+        mode: "hard",
+        image: "images/cross.jpg"
+      },
       
       
       
@@ -224,6 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const difficultyMode = document.getElementById('difficulty-mode');
   const explanationButton = document.getElementById('explanation-button');
   const progressBar = document.getElementById('progress-bar');
+  const questionImage = document.getElementById('question-image');
   let points = 0;
   // shuffles questions based on difficulty
   let questionsPool = shuffleArray(quizData[difficulty]);
@@ -253,6 +262,15 @@ document.addEventListener('DOMContentLoaded', () => {
     questionText.textContent = currentQuestion.question;
     answersContainer.innerHTML = '';
     difficultyMode.textContent = currentQuestion.mode;
+
+    // Set image source and display
+    if (currentQuestion.image) {
+      questionImage.src = currentQuestion.image;
+      questionImage.style.display = 'block'; // Show image
+    } else {
+      questionImage.src = '';
+      questionImage.style.display = 'none'; // Hide image
+    }
 
     let shuffledAnswers = shuffleArray([...currentQuestion.answers]);
     shuffledAnswers.forEach(answer => {
