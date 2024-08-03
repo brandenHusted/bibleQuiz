@@ -193,13 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
         mode: "hard"
       },
-      {
-        question: "What kind of tree did Zacchaeus climb on to see Jesus?",
-        answers: ["Sycamore Tree", "Fig Tree", "Olive Tree", "Acacia Tree, Tamarisk Tree"],
-        correct: "Sycamore Tree",
-        reason: "Zacchaeus climbed up a Sycamore tree in Luke 19:4-8.",
-        mode: "hard"
-      },
+      
       {
         question: "How many books in the Bible are named after women?",
         answers: ["2-Ruth and Esther", "2-Ezra and Hosea", "1-Mary", "3-Colossians, Ruth and Lamentations"],
@@ -214,13 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
         mode: "hard"
       },
-      {
-        question: "What kind of tree did Zacchaeus climb on to see Jesus?",
-        answers: ["Sycamore Tree", "Fig Tree", "Olive Tree", "Acacia Tree, Tamarisk Tree"],
-        correct: "Sycamore Tree",
-        reason: "Zacchaeus climbed up a Sycamore tree in Luke 19:4-8.",
-        mode: "hard"
-      },
+      
       
       
       
