@@ -40,8 +40,7 @@ Future plans:
 
 In the future I want to have a button to let a user download a pdf of their scores.
 more Questions and add images to the questions as well.
-Maybe Facial Recognition support if you have a picture of someone and you want to know their gender and age from Outreach using faceapi.js.
-Outreach specific AI chatbot for questions people have and email for questions on how to get involved.
+Change questions to bible questions not really specific outreach questions
 Implementing any feedback you give me!
 
 This app's goal is for people to learn more about Outreach Christian Church and learn how to get involved and who we are in our community. I hope this small step can have a huge impact, have fun!

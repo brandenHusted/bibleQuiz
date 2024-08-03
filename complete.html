@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +8,6 @@
   <link rel="stylesheet" href="styles/community.css">
   <script defer src="complete.js"></script>
 </head>
-
 <body>
   <header>
     <ul id="pages">
@@ -21,12 +19,16 @@
       <h1>Thanks for playing!</h1>
       <p>The purpose of this game is to learn and form a better community at Outreach.</p>
       <p>Press start to play again!</p>
-      <button onclick="window.location.href = 'game.html'">Start</button>
+      <button id="startNewGameButton" onclick="window.location.href = 'game.html'">Start</button>
     </section>
     <section id="score-container">
       <p>Your score is: <span id="score-percentage"></span>%</p>
     </section>
+    <br>
+    <section id="answered-questions">
+      <h2>Questions and Answers:</h2>
+      <!-- Answered questions will be dynamically inserted here -->
+    </section>
   </main>
 </body>
-
 </html>

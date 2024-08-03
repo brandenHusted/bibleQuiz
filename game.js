@@ -3,269 +3,231 @@ document.addEventListener('DOMContentLoaded', () => {
   const quizData = {
     easy: [
       {
-        question: "Which person is not a member of Outreach as of July 2024?",
-        answers: ["Josiah Magley", "Justin Lilley", "Kristin VanBeveren", "Bob Husted"],
-        correct: "Bob Husted",
-        reason: "There is no Bob Husted as of 2024 at Outreach Christian Church.",
+        question: "How do you become a Christian?",
+        answers: ["The Apostle's Creed", "The Lord's Prayer", "The ten Commandments", "Beleive Christ died for you"],
+        correct: "Beleive Christ died for you",
+        reason: "Christian Formula = Christ was killed for us, His death has washed away our sins, and by dying he has disabled death itself.",
         mode: "easy"
       },
       {
-        question: "What time is youth group at Outreach?",
-        answers: ["Thursday 5-8pm", "Sunday 5-7pm", "Tuesday 6-7pm", "Sunday 9-10am"],
-        correct: "Sunday 5-7pm",
-        reason: "On Outreach's website OCC Youth is at Sunday 5-7pm at the church building.",
+        question: "What is the last word in the Bible?",
+        answers: ["Amen", "Jesus", "Israel", "name"],
+        correct: "Amen",
+        reason: "The last word in the bible is Amen.",
         mode: "easy"
       },
       {
-        question: "What do we believe at Outreach Christian Church?",
-        answers: ["We believe salvation comes by Grace through the blood of Christ", "We believe you can be saved by following and obeying the laws of the Gospel", "There is only one God, Muhammad", "Truxton Daniels is our savior"],
-        correct: "We believe salvation comes by Grace through the blood of Christ",
-        reason: "We believe salvation comes by Grace through the blood of Christ is the central theme of Christianity and our church is built on what the Bible says.",
+        question: "What town was Jesus born in?",
+        answers: ["Bethlehem", "Jerusalem", "Israel", "Nazareth"],
+        correct: "Bethlehem",
+        reason: "In Matthew 2:1-2 it states that Jesus was born in Bethlehem.",
         mode: "easy"
       },
       {
-        question: "What time does Worship Service start at Outreach?",
-        answers: ["9:30am", "10:30am", "8:30am", "6:69am"],
-        correct: "10:30am",
-        reason: "Worship service starts at 10:30 and Sunday school starts at 9:30.",
+        question: "Romans 3:23 says that who has sinned?",
+        answers: ["Everyone", "The Devil", "Israel", "Peter"],
+        correct: "Everyone",
+        reason: "Romans 3:23 saids that everyone has sinned and fell short of the glory of God.",
         mode: "easy"
       },
       {
-        question: "Who is the pastor at Outreach Christian Church?",
-        answers: ["Justin Lilley", "Fred Lab", "Kelly Maatman", "Branden Husted"],
-        correct: "Fred Lab",
-        reason: "Justin Lilley is the youth pastor, Kelly Maatman is the Administrative Assistant. Fred Lab is the pastor! Branden Husted is me the developer of this game and a member of Outreach.",
+        question: "Who did God tell to let my people go, that they may hold a festival unto me in the wilderness?",
+        answers: ["Moses", "Jesus", "David", "Abraham"],
+        correct: "Moses",
+        reason: "In Exodus 5:1 God told Moses to let my people go, so that they may hold a festival unto me in the wilderness.",
         mode: "easy"
       },
       {
-        question: "Where is Outreach Christian Church Located?",
-        answers: ["Lake Odessa", "Ionia", "Hell", "Heaven"],
-        correct: "Lake Odessa",
-        reason: "Outreach is located in Lake Odessa, Michigan.",
+        question: "which books are the Gospels?",
+        answers: ["Matthew, Mark, Luke, John", "Matthew, Mark, Luke, John, Peter", "Numbers", "All of them"],
+        correct: "Matthew, Mark, Luke, John",
+        reason: "The Gospels are the records we have of Jesus' life. Matthew, Mark, Luke, John wrote down the teachings of Jesus.",
         mode: "easy"
       },
       {
-        question: "When is deeper hour and sunday school at Outreach?",
-        answers: ["9:30", "9:35", "10:00", "8:30"],
-        correct: "9:30",
-        reason: "Deeper hour is a place for adults to dive deeper into God's word. Sunday school is for kids to learn the bible. They all take palce at the same time 9:30 at Outreach.",
+        question: "What word or phrase means giving somebody something good that he or she doesn't deserve?",
+        answers: ["Grace", "Forgiveness", "Love", "Kindness"],
+        correct: "Grace",
+        reason: "Grace is giving something good that he or she doesn't deserve.",
         mode: "easy"
       },
       {
-        question: "Does Outreach have livestreams on Facebook and Youtube?",
-        answers: ["Yes", "No"],
-        correct: "Yes",
-        reason: "You can find Outreach's livestreams on their facebook page and on the official youtube channel.",
+        question: "Who walked on water toward Jesus?",
+        answers: ["Peter", "Matthew", "Andrew", "John"],
+        correct: "Peter",
+        reason: "Peter walked on water toward Jesus in Matthew 14:22-33.",
         mode: "easy"
       },
       {
-        question: "What is Outreach's email?",
-        answers: ["hello@outreachcc.com", "outreach@gmail.com", "welcome@outreachcc.com", "fred@outreachcc.com"],
-        correct: "hello@outreachcc.com",
-        reason: "You can find Outreach's email on their official website.",
+        question: "Fill in the blank: Thy word is a ____ unto my feet, and a light unto my path.",
+        answers: ["Lamp", "light", "Beacon", "Guide"],
+        correct: "Lamp",
+        reason: "Thy word is a lamp unto my feet is in Psalm 119:105 in King James Version of the Bible.",
         mode: "easy"
       },
       {
-        question: "Do we use grape juice or real wine at Outreach for communion?",
-        answers: ["Grape juice", "Real wine", "Depends on who you ask"],
-        correct: "Grape juice",
-        reason: "We use grape juice at Outreach during communion.",
+        question: "How many sons did Jacob have?",
+        answers: ["3", "12", "6", "1","None"],
+        correct: "12",
+        reason: "Jacob had 12 sons in Genesis 49.",
         mode: "easy"
       },
       {
-        question: "Do we beleive in the trinity at outreach?",
-        answers: ["Yes", "No"],
-        correct: "Yes",
-        reason: "We beleive in the trinity, God is God, Jesus, and the Holy Spirit all at the same time.",
+        question: "From what part of Adam's body did God create Eve?",
+        answers: ["thigh", "Gluteus Maximus", "Rib", "Elbow"],
+        correct: "Rib",
+        reason: "God created Eve with Adam's Rib in Genesis 2:21-22.",
         mode: "easy"
       },
-      {
-        question: "What is Outreach's Phone Number?",
-        answers: ["616-374-0115", "616-374-7110", "616-374-9887"],
-        correct: "616-374-0115",
-        reason: "This number is the number to contact Outreach Christian Church.",
-        mode: "easy"
-      }
+    
     ],
     medium: [
       {
-        question: "Which person is not a member of Outreach as of July 2024?",
-        answers: ["Robin Husted", "Fred Lab", "Michael Beethoven", "Rebecca Haller Leiter"],
-        correct: "Michael Beethoven",
-        reason: "Michael VanBeveren goes to Outreach Christian Church not Michael Beethoven. Rebecca Haller Leiter is a new member to Outreach. Fred Lab is the pastor of Outreach and Robin Husted is a regular member of Outreach.",
+        question: "Who said Fear not, Mary: for you have found favor with God.",
+        answers: ["Angel Gabriel", "Jesus Christ", "Paul", "The Devil"],
+        correct: "Angel Gabriel",
+        reason: "Angel Gabriel tells Mary to not fear, because you have found favor with God in Luke 1:30.",
         mode: "medium"
       },
       {
-        question: "Which person is not a member of Outreach as of July 2024?",
-        answers: ["AL Husted", "Johnerica Daniels", "Emily Lawhead", "Austin Pratt"],
-        correct: "Austin Pratt",
-        reason: "Austin Pratt is not a regular member of Outreach. Everyone else is a regular member.",
+        question: "How many days did God blind Saul on the road to Damascus.",
+        answers: ["3 Days", "4 Days", "10 days", "30 days"],
+        correct: "3 Days",
+        reason: "God blinded Saul on the road to Damascus for 3 days in Acts 9:9 in the Bible.",
+        mode: "medium"
+      },
+      {
+        question: "Why was Saul on the road to Damascus breathing out murderous threats against the Lord's disciples?",
+        answers: ["He obtained arrest warrants from the Chief Priest", "To Attend a Religious Festival in Damascus", "To Obtain Permission from the Roman Authorities to Execute Disciples", "To Seek Forgiveness for His Sins"],
+        correct: "He obtained arrest warrants from the Chief Priest",
+        reason: "Saul obtained arrest warrants from the Chief Priest and he was out to imprison the Disciples in Acts 9:2 in the Bible.",
+        mode: "medium"
+      },
+      {
+        question: "What was God's sign to Noah that he would never destroy the earth again?",
+        answers: ["A Rainbow", "A Dove", "A Flood", "A Son"],
+        correct: "A Rainbow",
+        reason: "God's sign to Noah that he would never destroy the earth again was a rainbow in Genesis 9:13.",
+        mode: "medium"
+      },
+      {
+        question: "Through what did God speak to Moses in the desert?",
+        answers: ["A Dream", "A Thunderous Voice from Heaven", "A Thunderstorm", "A Burning Bush"],
+        correct: "A Burning Bush",
+        reason: "God spoke to Moses with A Burning Bush in Exodus 3:2-4.",
+        mode: "medium"
+      },
+      // add more questions
+      {
+        question: "Who said Fear not, Mary: for you have found favor with God.",
+        answers: ["Angel Gabriel", "Jesus Christ", "Paul", "The Devil"],
+        correct: "Angel Gabriel",
+        reason: "Angel Gabriel tells Mary to not fear, because you have found favor with God in Luke 1:30.",
+        mode: "medium"
+      },
+      {
+        question: "How many days did God blind Saul on the road to Damascus.",
+        answers: ["3 Days", "4 Days", "10 days", "30 days"],
+        correct: "3 Days",
+        reason: "God blinded Saul on the road to Damascus for 3 days in Acts 9:9 in the Bible.",
+        mode: "medium"
+      },
+      {
+        question: "Why was Saul on the road to Damascus breathing out murderous threats against the Lord's disciples?",
+        answers: ["He obtained arrest warrants from the Chief Priest", "To Attend a Religious Festival in Damascus", "To Obtain Permission from the Roman Authorities to Execute Disciples", "To Seek Forgiveness for His Sins"],
+        correct: "He obtained arrest warrants from the Chief Priest",
+        reason: "Saul obtained arrest warrants from the Chief Priest and he was out to imprison the Disciples in Acts 9:2 in the Bible.",
+        mode: "medium"
+      },
+      {
+        question: "What was God's sign to Noah that he would never destroy the earth again?",
+        answers: ["A Rainbow", "A Dove", "A Flood", "A Son"],
+        correct: "A Rainbow",
+        reason: "God's sign to Noah that he would never destroy the earth again was a rainbow in Genesis 9:13.",
+        mode: "medium"
+      },
+      {
+        question: "Through what did God speak to Moses in the desert?",
+        answers: ["A Dream", "A Thunderous Voice from Heaven", "A Thunderstorm", "A Burning Bush"],
+        correct: "A Burning Bush",
+        reason: "God spoke to Moses with A Burning Bush in Exodus 3:2-4.",
         mode: "medium"
       },
       
-      {
-        question: "Do all Life groups meet weekly during the summer months?",
-        answers: ["Yes", "No"],
-        correct: "No",
-        reason: "Please be aware that some groups do not meet weekly during the summer months, so be sure to ask the group leaders about their group's summer schedule before attending.",
-        mode: "medium"
-      },
-      {
-        question: "What are ways you can volunteer at Outreach?",
-        answers: ["Adopt-A-Highway Cleanup", "Give a gift to a child in need for Christmas", "Hold the door for incoming Guests before Church", "All these activities and more"],
-        correct: "All these activities and more",
-        reason: "All of these activities are ways you can volunteer your time to Outreach. To learn more go to: https://www.outreachcc.com/",
-        mode: "medium"
-      },
-      {
-        question: "Where is the Statewide Teen Convention held that Outreach's youth group attends?",
-        answers: ["Calvin University", "Great Lakes Christian College", "Mooville parking lot", "Albion College"],
-        correct: "Great Lakes Christian College",
-        reason: "The youth group goes to Statewide at Great Lakes Christian College. The college Justin attended and earned his degree at.",
-        mode: "medium"
-      },
-      {
-        question: "Does Justin like pizza?",
-        answers: ["Yes", "No", "What is this question, I refuse to answer"],
-        correct: "Yes",
-        reason: "Justin loves pizza and he have it at every event he plans during youth group. This is a great fact to know so you can give Justin a gift of pizza next time you see him.",
-        mode: "medium"
-      },
-      {
-        question: "Does Justin go to the neighboring schools and get involved with the community?",
-        answers: ["Yes, you bet ya its Outreach for a reason!", "No"],
-        correct: "Yes, you bet ya its Outreach for a reason",
-        reason: "Justin loves to get involved with people from his youth group and he even is celebrating with them at their high school graduations, what a guy!",
-        mode: "medium"
-      },
-      {
-        question: "What are ways you can volunteer at Outreach?",
-        answers: ["Help out with Sunday School", "Be in charge of audio/tech", "Be in charge of morning coffee", "All these activities and more"],
-        correct: "All these activities and more",
-        reason: "All of these activities are ways you can volunteer your time to Outreach. To learn more go to: https://www.outreachcc.com/",
-        mode: "medium"
-      },
-      {
-        question: "What kind of music do we play during service?",
-        answers: ["Mostly contemporary praise and worship with a touch of old school", "Rock music that will lift your soul to the heavens above", "Hymns that fit the sermon very well", "We do not play music"],
-        correct: "Mostly contemporary praise and worship with a touch of old school",
-        reason: "We play Mostly contemporary praise and worship with a touch of old school tunes because it is a great way to start off the service and our congregation loves it! ",
-        mode: "medium"
-      },
-      {
-        question: "Will Outreach's teachings not challenge you in your daily life?",
-        answers: ["Yes", "No"],
-        correct: "No",
-        reason: "At Outreach we use the Bible in everything that we preach and the Bible has some very hard lessons that we take very seriously. You will learn more about God and how to walk as a Christian in your daily life here at Outreach.",
-        mode: "medium"
-      },
-      {
-        question: "Justin Lilley has been playing on a worship team since 4th grade.",
-        answers: ["True", "False"],
-        correct: "True",
-        reason: "Justin loves to play in our worship band. He loves playing drums, guitar, piano, and singing.",
-        mode: "medium"
-      },
+       
     ],
     hard: [
       {
-        question: "What fundraiser did OCC have for their mission trip in 2016?",
-        answers: ["Pie Sale Fundraiser", "5K Run Fundraiser", "Social Media Fundraiser", "Car Wash Fundraiser"],
-        correct: "Pie Sale Fundraiser",
-        reason: "In 2016 April 23rd OCC (Outreach Christian Church) had a Pie Sale Fundraiser. We made over 900 pies in under 3 hours!",
+        question: "How many books in the Bible are named after women?",
+        answers: ["2-Ruth and Esther", "2-Ezra and Hosea", "1-Mary", "3-Colossians, Ruth and Lamentations"],
+        correct: "2-Ruth and Esther",
+        reason: "Ruth and Esther are the only books in the Bible named after women.",
         mode: "hard"
       },
       {
-        question: "Who plays The Little Drummer Boy on every Christmas Eve at Outreach?",
-        answers: ["Rick Fox", "Justin Lilley", "Justin Littlefield", "Truxton Daniels"],
-        correct: "Rick Fox",
-        reason: "Rick Fox plays The Little Drummer Boy every Christmas on a drum and it is amazing! Come to Outreach's Christmas Eve Service and see it for yourself!",
+        question: "Who said in the Bible am I my brother's keeper?",
+        answers: ["Cain", "Moses", "Abel", "Noah", "Elijah"],
+        correct: "Cain",
+        reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
         mode: "hard"
       },
       {
-        question: "What camp is Justin Lilley (the youth pastor) in charge of?",
-        answers: ["Rock Lake Christian Assembly", "Michigan Christian Youth Camp", "Lake Ann Camp", "Grace Adventures"],
-        correct: "Rock Lake Christian Assembly",
-        reason: "Justin is in charge of Rock Lake Christian Assembly during the week for high school students. Many students come from Outreach and this is a great opportunity to outreach and meet new people!",
+        question: "What kind of tree did Zacchaeus climb on to see Jesus?",
+        answers: ["Sycamore Tree", "Fig Tree", "Olive Tree", "Acacia Tree, Tamarisk Tree"],
+        correct: "Sycamore Tree",
+        reason: "Zacchaeus climbed up a Sycamore tree in Luke 19:4-8.",
+        mode: "hard"
+      },
+      // add more questions
+      {
+        question: "How many books in the Bible are named after women?",
+        answers: ["2-Ruth and Esther", "2-Ezra and Hosea", "1-Mary", "3-Colossians, Ruth and Lamentations"],
+        correct: "2-Ruth and Esther",
+        reason: "Ruth and Esther are the only books in the Bible named after women.",
         mode: "hard"
       },
       {
-        question: "What is Outreach's Mission?",
-        answers: ["To connect people to God through His Love, His World, and His Fellowship", "Love God, Love People, Make Disciples", "Helping people find and follow Jesus Christ", "Our mission is to make fully devoted followers of Christ"],
-        correct: "To connect people to God through His Love, His World, and His Fellowship",
-        reason: "At Outreach we love to connect with people and grow in fellowship with everyone we meet. Look on Outreach's website for their mission statement.",
+        question: "Who said in the Bible am I my brother's keeper?",
+        answers: ["Cain", "Moses", "Abel", "Noah", "Elijah"],
+        correct: "Cain",
+        reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
         mode: "hard"
       },
       {
-        question: "Which person is a member of Outreach as of Dec 2023?",
-        answers: ["Carrie Pratt", "Jacob Lilley", "Steve Vanden Heuvel", "Jonathan Gerdes", "Robert Silvernail"],
-        correct: "Carrie Pratt",
-        reason: "Carrie Pratt goes to Outreach as of Dec 2023. I saw her at the Christmas Eve Service. No one else goes to Outreach.",
+        question: "What kind of tree did Zacchaeus climb on to see Jesus?",
+        answers: ["Sycamore Tree", "Fig Tree", "Olive Tree", "Acacia Tree, Tamarisk Tree"],
+        correct: "Sycamore Tree",
+        reason: "Zacchaeus climbed up a Sycamore tree in Luke 19:4-8.",
         mode: "hard"
       },
       {
-        question: "Who is the amazing nice person that is 51 in 2024 and loves to greet everyone that comes to church everyday?",
-        answers: ["Danny", "Fred", "Scott", "Deanna"],
-        correct: "Danny",
-        reason: "Danny is a super nice person that has been at Outreach for a very long time. He turned 51 on Tuesday April 30th.",
+        question: "How many books in the Bible are named after women?",
+        answers: ["2-Ruth and Esther", "2-Ezra and Hosea", "1-Mary", "3-Colossians, Ruth and Lamentations"],
+        correct: "2-Ruth and Esther",
+        reason: "Ruth and Esther are the only books in the Bible named after women.",
         mode: "hard"
       },
       {
-        question: "Who is a elder at Outreach Christian church in 2024?",
-        answers: ["John Daniels", "Al Husted", "Scott Moford", "Chuck Rectenwal"],
-        correct: "John Daniels",
-        reason: "John Daniels is a elder at Outreach. The rest are not.",
+        question: "Who said in the Bible am I my brother's keeper?",
+        answers: ["Cain", "Moses", "Abel", "Noah", "Elijah"],
+        correct: "Cain",
+        reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
         mode: "hard"
       },
       {
-        question: "What day and time is men's ministry group at Outreach?",
-        answers: ["1st Monday of every month 6-8pm", "3rd Monday of every Month 7-8pm", "1st Tuesday of every week 5-6pm", "Sundays 9-10am"],
-        correct: "1st Monday of every month 6-8pm",
-        reason: "The 1st Monday of every month 6-8 is outreach's men's group. This is a great way to get connected to Outreach outside of just sunday mornings.",
+        question: "What kind of tree did Zacchaeus climb on to see Jesus?",
+        answers: ["Sycamore Tree", "Fig Tree", "Olive Tree", "Acacia Tree, Tamarisk Tree"],
+        correct: "Sycamore Tree",
+        reason: "Zacchaeus climbed up a Sycamore tree in Luke 19:4-8.",
         mode: "hard"
       },
-      {
-        question: "What day and time is Women's Gathering at Outreach?",
-        answers: ["1st Monday of every month 6-8pm", "3rd Monday of every Month 7-8pm", "1st Tuesday of every week 5-6pm", "Sundays 9-10am"],
-        correct: "3rd Monday of every Month 7-8pm",
-        reason: "3rd Monday of every Month 7-8pm is outreach's women's group. This is a great way to get connected to Outreach outside of just sunday mornings.",
-        mode: "hard"
-      },
-      {
-        question: "At Outreach's wild game dinner, what animal is usually served?",
-        answers: ["Turtle", "Ring-necked Pheasant", "Ostrich", "Bear", "Muskox"],
-        correct: "Turtle",
-        reason: "At the annual wild game dinner at Outreach turtle was served when I last went and none of the other wild game meat was served.",
-        mode: "hard"
-      },
-      {
-        question: "How long has Fred been the pastor of Outreach Christian Church since 2024?",
-        answers: ["22 Years", "21 Years", "25 years", "23 years", "19 years"],
-        correct: "22 years",
-        reason: "Fred has been the pastor at Outreach since October 2002. From this year in 2024 that would be 22 years.",
-        mode: "hard"
-      },
-      {
-        question: "When is the Annual Congregational Meeting in 2025?",
-        answers: ["January", "June", "March", "December", "August"],
-        correct: "January",
-        reason: "The annual Congregational Meeting in 2025 will be in January.",
-        mode: "hard"
-      },
-      {
-        question: "What organization support Outreach Christian Church?",
-        answers: ["Go Ministries", "Her House", "Workers for African Missions", "Boy Scouts"],
-        correct: "Go Ministries seeks to empower passionate, Local Leaders serving inside their cultures to Redeem people, Renew communities and Restore Creation by developing dynamic International Partnerships in Ministry that result in mutual transformation.",
-        reason: "Go Ministries",
-        mode: "hard"
-      },
+      
       
       
     ],
   };
 
   let currentQuestionIndex = 0;
-  let timerInterval;
   let difficulty = 'easy'; // Initial difficulty level
   let questionsAnswered = 0;
   const questionText = document.getElementById('question-text');
@@ -274,7 +236,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const difficultyMode = document.getElementById('difficulty-mode');
   const explanationButton = document.getElementById('explanation-button');
   const progressBar = document.getElementById('progress-bar');
-  let timeRemaining;
   let points = 0;
   // shuffles questions based on difficulty
   let questionsPool = shuffleArray(quizData[difficulty]);
@@ -294,8 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     return array;
   }
-  // handle timer
-  startTimer(60);
+  
   // Function to load a question and its answers
   function loadQuestion() {
     if (questionsPool.length === 0) {
@@ -317,11 +277,23 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Function to check the selected answer
   function checkAnswer(selectedAnswer, correctAnswer, reason) {
+    // Store question data in localStorage
+    const questionData = {
+      question: questionText.textContent,
+      selectedAnswer: selectedAnswer,
+      correctAnswer: correctAnswer
+    };
+  
+    // Retrieve existing questions data from localStorage or initialize an empty array
+    let answeredQuestions = JSON.parse(localStorage.getItem('answeredQuestions')) || [];
+    answeredQuestions.push(questionData);
+    localStorage.setItem('answeredQuestions', JSON.stringify(answeredQuestions));
+  
     if (selectedAnswer === correctAnswer) {
       points++;
     }
+  
     questionsAnswered++;
     adjustDifficulty();
     answersContainer.style.visibility = "hidden";
@@ -329,6 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nextButton.style.visibility = 'visible'; // Show the "Next" button
     explanationButton.style.visibility = 'visible'; // Show the "Show Explanation" button
   }
+  
 
   // Function to adjust the difficulty based on performance
   function adjustDifficulty() {
@@ -348,27 +321,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const scorePercentageValue = (points / 10) * 100;
     localStorage.setItem('scorePercentage', scorePercentageValue.toFixed(2));
     window.location.href = 'complete.html'; // Redirect to complete page
-    clearInterval(timerInterval);
   }
 
   // Function to show the explanation
   function showExplanation(reason) {
     alert(reason);
   }
-  // makes timer count down
-  function startTimer(duration) {
-    timeRemaining = duration;
-    timerInterval = setInterval(() => {
-      timeRemaining--;
-      document.getElementById("time-remaining").textContent = timeRemaining;
-      if (timeRemaining <= 0) {
-        clearInterval(timerInterval);
-        alert("Time's up!");
-        displayScore(0); // score is set to 0
-
-      }
-    }, 1000); // 1000 milliseconds (1 second)
-  }
+  
 
   // Function to update the progress bar
   function updateProgressBar(currentIndex) {
