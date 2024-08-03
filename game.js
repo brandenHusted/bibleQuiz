@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         question: "What kind of tree did Zacchaeus climb on to see Jesus?",
-        answers: ["Sycamore Tree", "Fig Tree", "Olive Tree", "Acacia Tree, Tamarisk Tree"],
+        answers: ["Sycamore Tree", "Fig Tree", "Olive Tree", "Acacia Tree", "Tamarisk Tree"],
         correct: "Sycamore Tree",
         reason: "Zacchaeus climbed up a Sycamore tree in Luke 19:4-8.",
         mode: "hard"
