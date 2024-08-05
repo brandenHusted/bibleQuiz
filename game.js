@@ -66,17 +66,17 @@ document.addEventListener('DOMContentLoaded', () => {
         mode: "easy"
       },
       {
-        question: "How many sons did Jacob have?",
-        answers: ["3", "12", "6", "1","None"],
-        correct: "12",
-        reason: "Jacob had 12 sons in Genesis 49.",
-        mode: "easy"
-      },
-      {
         question: "From what part of Adam's body did God create Eve?",
         answers: ["thigh", "Gluteus Maximus", "Rib", "Elbow"],
         correct: "Rib",
         reason: "God created Eve with Adam's Rib in Genesis 2:21-22.",
+        mode: "easy"
+      },
+      {
+        question: "What is verse 1 in Genesis?",
+        answers: ["In the beginning God created the heavens and the earth", "In the beginning God created light from darkness", "Amen. Come, Lord Jesus", "And God said, Let there be light"],
+        correct: "In the beginning God created the heavens and the earth",
+        reason: "The first verse in the Bible is in the beginning God created the heavens and the earth.",
         mode: "easy"
       },
     
@@ -117,43 +117,27 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "God spoke to Moses with A Burning Bush in Exodus 3:2-4.",
         mode: "medium"
       },
-      // add more questions
       {
-        question: "Who said Fear not, Mary: for you have found favor with God.",
-        answers: ["Angel Gabriel", "Jesus Christ", "Paul", "The Devil"],
-        correct: "Angel Gabriel",
-        reason: "Angel Gabriel tells Mary to not fear, because you have found favor with God in Luke 1:30.",
+        question: "How many sons did Jacob have?",
+        answers: ["3", "12", "6", "1","None"],
+        correct: "12",
+        reason: "Jacob had 12 sons in Genesis 49.",
         mode: "medium"
       },
       {
-        question: "How many days did God blind Saul on the road to Damascus.",
-        answers: ["3 Days", "4 Days", "10 days", "30 days"],
-        correct: "3 Days",
-        reason: "God blinded Saul on the road to Damascus for 3 days in Acts 9:9 in the Bible.",
+        question: "What day was the Sabbath in the bible?",
+        answers: ["Sunday", "Saturday", "Friday", "Sabbath doesn't matter"],
+        correct: "Saturday",
+        reason: "The Sabbath was viewed on Saturday the 7th day of the week. The 1st day of the week is Sunday so the last would be Saturday",
         mode: "medium"
       },
       {
-        question: "Why was Saul on the road to Damascus breathing out murderous threats against the Lord's disciples?",
-        answers: ["He obtained arrest warrants from the Chief Priest", "To Attend a Religious Festival in Damascus", "To Obtain Permission from the Roman Authorities to Execute Disciples", "To Seek Forgiveness for His Sins"],
-        correct: "He obtained arrest warrants from the Chief Priest",
-        reason: "Saul obtained arrest warrants from the Chief Priest and he was out to imprison the Disciples in Acts 9:2 in the Bible.",
-        mode: "medium"
+        question: "Is Christianity based on humanitarian philosophy?",
+        answers: ["True","False"],
+        correct: "True",
+        reason: "True. Christianity emphasizes serving humanity and reducing suffering.",
+        mode: "Medium"
       },
-      {
-        question: "What was God's sign to Noah that he would never destroy the earth again?",
-        answers: ["A Rainbow", "A Dove", "A Flood", "A Son"],
-        correct: "A Rainbow",
-        reason: "God's sign to Noah that he would never destroy the earth again was a rainbow in Genesis 9:13.",
-        mode: "medium"
-      },
-      {
-        question: "Through what did God speak to Moses in the desert?",
-        answers: ["A Dream", "A Thunderous Voice from Heaven", "A Thunderstorm", "A Burning Bush"],
-        correct: "A Burning Bush",
-        reason: "God spoke to Moses with A Burning Bush in Exodus 3:2-4.",
-        mode: "medium"
-      },
-      
        
     ],
     hard: [
@@ -178,6 +162,21 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Zacchaeus climbed up a Sycamore tree in Luke 19:4-8.",
         mode: "hard"
       },
+      {
+        question: "Why does God allow bad things to happen?",
+        answers: ["Bad things happen because the whole world is controlled by the evil one", "Bad things happen because the world is controlled by sinners", "Bad things happen so we can turn bad things into good things", "Bad things happen because Christians let bad things happen"],
+        correct: "Bad things happen because the whole world is controlled by the evil one",
+        reason: "Bad things happen because the whole world is controlled by the evil one. This is stated in 1 John 5:19 in the Bible.",
+        mode: "hard",
+        image: "images/badthings.jpg"
+      },
+      {
+        question: "which prophet was told by God to marry a prostitute?",
+        answers: ["Hosea", "Isaiah", "Barnabas", "Enoch"],
+        correct: "Hosea",
+        reason: "In Hosea 1:2-4 in the Bible. Hosea was told by God to marry a prostitute.",
+        mode: "hard",
+      },
       // add more questions
       {
         question: "How many books in the Bible are named after women?",
@@ -208,17 +207,6 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
         mode: "hard"
       },
-      {
-        question: "Who said in the Bible am I my brother's keeper?",
-        answers: ["Cain", "Moses", "Abel", "Noah", "Elijah"],
-        correct: "Cain",
-        reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
-        mode: "hard",
-        image: "images/cross.jpg"
-      },
-      
-      
-      
       
     ],
   };
