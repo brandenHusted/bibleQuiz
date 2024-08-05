@@ -11,9 +11,16 @@
 
 <body>
   <h1>Outreach Christian Church Community Game!</h1>
-  <button onclick="window.location.href = 'game.html'">Press to play</button>
+  <button id="game" onclick="window.location.href = 'game.html'">Press to play</button>
    <p>The purpose of this game is to learn and form a better community at Outreach. 
     Press start to play!</p>
 </body>
+<script>
+ document.getElementById('game').addEventListener('click', () => {
+      // Clear local storage
+      localStorage.removeItem('answeredQuestions');
+      localStorage.removeItem('scorePercentage');
+    });
+</script>
 
 </html>
