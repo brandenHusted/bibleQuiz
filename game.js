@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         question: "How do you become a Christian?",
         answers: ["The Apostle's Creed", "The Lord's Prayer", "The ten Commandments", "Beleive Christ died for you"],
         correct: "Beleive Christ died for you",
-        reason: "Christian Formula = Christ was killed for us, His death has washed away our sins, and by dying he has disabled death itself.",
+        reason: "Christian Formula = Christ was killed for us, His death has washed away our sins, and by dying he has disabled death itself. You are Christian by beleive Christ died for you.",
         mode: "easy"
       },
       {
