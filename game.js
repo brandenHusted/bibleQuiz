@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mode: "easy"
       },
       {
-        question: "Who did God tell to let my people go, that they may hold a festival unto me in the wilderness?",
+        question: "Who did God tell to let my people go?",
         answers: ["Moses", "Jesus", "David", "Abraham"],
         correct: "Moses",
         reason: "In Exodus 5:1 God told Moses to let my people go, so that they may hold a festival unto me in the wilderness.",
@@ -78,6 +78,14 @@ document.addEventListener('DOMContentLoaded', () => {
         correct: "In the beginning God created the heavens and the earth",
         reason: "The first verse in the Bible is in the beginning God created the heavens and the earth.",
         mode: "easy"
+      },
+      {
+        question: "Who is called the light of the world?",
+        answers: ["Jesus", "Moses", "John", "Abraham"],
+        correct: "Jesus",
+        reason: "Jesus is called the light of the world in John 8:12.",
+        mode: "easy",
+        image: "images/jesus.jpg"
       },
     
     ],
@@ -138,6 +146,27 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "True. Christianity emphasizes serving humanity and reducing suffering.",
         mode: "Medium"
       },
+      {
+        question: "What were the first words God spoke to man?",
+        answers: ["Rule the earth","Fill the earth", "Be fruitful and multiply", "Love your neighbor"],
+        correct: "Be fruitful and multiply",
+        reason: "God said Be fruitful and multiply in Genesis 1:28.",
+        mode: "Medium"
+      },
+      {
+        question: "Quote the first words of our Savior while on earth.",
+        answers: ["Why are you searching for me? Didn't you know I would be in my Father's house","I am the way the truth and the life", "You shall love the Lord your God with all you mind, heart and soul", "I don't know maybe baby noises"],
+        correct: "Why are you searching for me? Didn't you know I would be in my Father's house",
+        reason: "The first words we know God said are Why are you searching for me? Didn't you know I would be in my Father's house in Luke 2:49.",
+        mode: "Medium"
+      },
+      {
+        question: "Quote the last words of our Savior while on earth.",
+        answers: ["It is finished","Father forgive them for they do not know what they do", "Father into your hands I commit my spirit", "Love your neighbor"],
+        correct: "It is finished",
+        reason: "The last words we know God said are it is finished in John 19:30.",
+        mode: "Medium"
+      },
        
     ],
     hard: [
@@ -177,34 +206,34 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "In Hosea 1:2-4 in the Bible. Hosea was told by God to marry a prostitute.",
         mode: "hard",
       },
-      // add more questions
       {
-        question: "How many books in the Bible are named after women?",
-        answers: ["2-Ruth and Esther", "2-Ezra and Hosea", "1-Mary", "3-Colossians, Ruth and Lamentations"],
-        correct: "2-Ruth and Esther",
-        reason: "Ruth and Esther are the only books in the Bible named after women.",
+        question: "What Athenian judge was converted under Paul's preaching?",
+        answers: ["Eunice", "Candace", "Eubulus", "Dionysius"],
+        correct: "Dionysius",
+        reason: "Dionysius was converted under Paul's preaching in Acts 17:34.",
         mode: "hard"
       },
       {
-        question: "Who said in the Bible am I my brother's keeper?",
-        answers: ["Cain", "Moses", "Abel", "Noah", "Elijah"],
-        correct: "Cain",
-        reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
+        question: "How were the children of Israel guided in their forty years of wandering in the wilderness?",
+        answers: ["By a pillar of cloud by day and a pillar of fire by night", "By the voice of God", "By Moses", "Noah", "By Aaron's rod"],
+        correct: "By a pillar of cloud by day and a pillar of fire by night",
+        reason: "They were guided by a pillar of cloud by day and a pillar of fire by night. you can read this in Exodus 13:21.",
         mode: "hard"
       },
       
       {
-        question: "How many books in the Bible are named after women?",
-        answers: ["2-Ruth and Esther", "2-Ezra and Hosea", "1-Mary", "3-Colossians, Ruth and Lamentations"],
-        correct: "2-Ruth and Esther",
-        reason: "Ruth and Esther are the only books in the Bible named after women.",
-        mode: "hard"
+        question: "What king did God smite with Leprosy?",
+        answers: ["Athaliah", "Jehoram", "Amaziah", "Uzziah"],
+        correct: "Uzziah",
+        reason: "God smited Uzziah with Leprosy in 2 Chronicles 26:19.",
+        mode: "hard",
+        image: "images/leprosy.jpg"
       },
       {
-        question: "Who said in the Bible am I my brother's keeper?",
-        answers: ["Cain", "Moses", "Abel", "Noah", "Elijah"],
-        correct: "Cain",
-        reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
+        question: "What prophet was sent as a missionary to the Ninevites?",
+        answers: ["Jonah", "Paul", "Elon", "Malachi", "Jesus"],
+        correct: "Jonah",
+        reason: "Jonah was a prophet sent as a missionary to the Ninevites in Jonah 1:1-2.",
         mode: "hard"
       },
       
