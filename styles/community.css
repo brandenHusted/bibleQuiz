@@ -56,6 +56,13 @@
     font-family: var(--font1);
   }
 
+  #answered-questions {
+    border: 2px solid #333; /* Border color and width */
+    padding: 15px; /* Space inside the border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    margin-top: 20px; /* Optional: Space above the section */
+  }
+
   button {
     padding: 10px 20px;
     background-color: #4CAF50;
