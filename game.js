@@ -318,6 +318,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentQuestionIndex = 0;
   let difficulty = 'easy'; // Initial difficulty level
   let questionsAnswered = 0;
+  let categorySelect = document.getElementById('category');
+  const difficultySelect = document.getElementById('difficulty');
   const questionText = document.getElementById('question-text');
   const answersContainer = document.getElementById('answers-container');
   const nextButton = document.getElementById('next-button');
@@ -328,6 +330,11 @@ document.addEventListener('DOMContentLoaded', () => {
   let points = 0;
   // shuffles questions based on difficulty
   let questionsPool = shuffleArray(quizData[difficulty]);
+  
+  // Retrieve difficulty from local storage
+  const savedDifficulty = localStorage.getItem('selectedDifficulty');
+  difficulty = savedDifficulty || 'easy'; // Default to 'easy' if no saved difficulty
+  
 
   // Hide buttons initially
   nextButton.style.visibility = "hidden";
@@ -335,6 +342,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // show buttons initially
   answersContainer.style.visibility = "visible";
+
+  if (savedDifficulty === 'all') {
+    adjustDifficulty();
+  } else {
+    // Filter questions based on selected difficulty
+    questionsPool = shuffleArray(quizData[difficulty]);
+  }
 
   // Function to shuffle array elements
   function shuffleArray(array) {
@@ -393,26 +407,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     questionsAnswered++;
-    adjustDifficulty();
+    if (savedDifficulty === 'all') {
+      adjustDifficulty();
+    }
     answersContainer.style.visibility = "hidden";
     explanationButton.onclick = () => showExplanation(reason);
     nextButton.style.visibility = 'visible'; // Show the "Next" button
     explanationButton.style.visibility = 'visible'; // Show the "Show Explanation" button
   }
   
-
   // Function to adjust the difficulty based on performance
   function adjustDifficulty() {
     const scorePercentage = (points / questionsAnswered) * 100;
-    if (scorePercentage >= 80 && difficulty !== 'hard') {
-      // If the condition is true (i.e., difficulty is 'easy'), then difficulty is set to 'medium' or If the condition is false (i.e., difficulty is not 'easy'), then difficulty is set to 'hard'.
-      difficulty = difficulty === 'easy' ? 'medium' : 'hard';
-      questionsPool = shuffleArray(quizData[difficulty]);
-    } else if (scorePercentage < 50 && difficulty !== 'easy') {
-      difficulty = difficulty === 'hard' ? 'medium' : 'easy';
-      questionsPool = shuffleArray(quizData[difficulty]);
+      if (scorePercentage >= 80 && difficulty !== 'hard') {
+        // If the condition is true (i.e., difficulty is 'easy'), then difficulty is set to 'medium' or If the condition is false (i.e., difficulty is not 'easy'), then difficulty is set to 'hard'.
+        difficulty = difficulty === 'easy' ? 'medium' : 'hard';
+        questionsPool = shuffleArray(quizData[difficulty]);
+      } else if (scorePercentage < 40 && difficulty !== 'easy') {
+        difficulty = difficulty === 'hard' ? 'medium' : 'easy';
+        questionsPool = shuffleArray(quizData[difficulty]);
     }
-  }
+  
+}
 
   // Function to calculate and display score
   function displayScore(points) {
@@ -447,7 +463,7 @@ document.addEventListener('DOMContentLoaded', () => {
       nextButton.style.visibility = 'hidden'; // Hide the "Next" button at the end of the quiz
       explanationButton.style.visibility = 'hidden';
       displayScore(points);
-      window.location.href = 'complete.html';
+      //window.location.href = 'complete.html';
     }
   });
 

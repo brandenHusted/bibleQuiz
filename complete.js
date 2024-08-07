@@ -19,10 +19,5 @@ document.addEventListener('DOMContentLoaded', () => {
         answeredQuestionsContainer.appendChild(questionElement);
       });
     } 
-    document.getElementById('startNewGameButton').addEventListener('click', () => {
-      // Clear local storage
-      localStorage.removeItem('answeredQuestions');
-      localStorage.removeItem('scorePercentage');
-    });
   });
   

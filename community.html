@@ -7,20 +7,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Outreach Christian Church Community Game!</title>
   <link rel="stylesheet" href="styles/community.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .container {
+      width: 80%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #007bff;
+    }
+    .flex-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    select {
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: green;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    p {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Outreach Christian Church Community Game!</h1>
-  <button id="game" onclick="window.location.href = 'game.html'">Press to play</button>
-   <p>The purpose of this game is to learn and form a better community at Outreach. 
-    Press start to play!</p>
-</body>
-<script>
- document.getElementById('game').addEventListener('click', () => {
+  <div class="container">
+    <h1>Bible Quiz!</h1>
+    
+    <!-- Flex container -->
+    <div class="flex-container">
+      <div class="flex-group">
+        <label for="category">Select Question Category:</label>
+        <select id="category">
+          <option value="">All</option>
+          <option value="category1">Category 1</option>
+          <option value="category2">Category 2</option>
+          <option value="category3">Category 3</option>
+        </select>
+      </div>
+      <div class="flex-group">
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+          <option value="all">All</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+      <button id="game" onclick="window.location.href = 'game.html'">Press to play</button>
+    </div>
+    
+    <p>The purpose of this game is to learn and study more about the Bible. I hope you show this game to other people and spread the Gospel like Jesus commanded! Press start to play!</p>
+  </div>
+
+  <script>
+    document.getElementById('game').addEventListener('click', () => {
       // Clear local storage
       localStorage.removeItem('answeredQuestions');
       localStorage.removeItem('scorePercentage');
     });
-</script>
+
+    // Add event listener for category dropdown change
+    document.getElementById('category').addEventListener('change', (event) => {
+      const selectedCategory = event.target.value;
+      localStorage.setItem('selectedCategory', selectedCategory);
+      console.log(`Selected category: ${selectedCategory}`);
+    });
+
+    // Add event listener for difficulty dropdown change
+    document.getElementById('difficulty').addEventListener('change', (event) => {
+      const selectedDifficulty = event.target.value;
+      localStorage.setItem('selectedDifficulty', selectedDifficulty);
+      console.log(`Selected difficulty: ${selectedDifficulty}`);
+    });
+
+    // Optional: Set the dropdowns to the stored values when the page loads
+    window.addEventListener('load', () => {
+      const storedCategory = localStorage.getItem('selectedCategory');
+      const storedDifficulty = localStorage.getItem('selectedDifficulty');
+      
+      if (storedCategory) {
+        document.getElementById('category').value = storedCategory;
+      }
+      
+      if (storedDifficulty) {
+        document.getElementById('difficulty').value = storedDifficulty;
+      }
+    });
+  </script>
+</body>
 
 </html>
