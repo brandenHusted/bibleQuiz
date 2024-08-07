@@ -38,9 +38,7 @@ This will start the server and you are good to go!
 
 Future plans:
 
-In the future I want to have a button to let a user download a pdf of their scores.
-more Questions and add images to the questions as well.
-Change questions to bible questions not really specific outreach questions
+In the future I want to make catagories for specific questions or just do all
 Implementing any feedback you give me!
 
 This app's goal is for people to learn more about Outreach Christian Church and learn how to get involved and who we are in our community. I hope this small step can have a huge impact, have fun!

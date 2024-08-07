@@ -87,6 +87,21 @@ document.addEventListener('DOMContentLoaded', () => {
         mode: "easy",
         image: "images/jesus.jpg"
       },
+      {
+        question: "What is the duty of man, according to the Scriptures?",
+        answers: ["Fear God and keep his commandments", "Take care of the earth", "Love enemies", "Be fruitful and multiply"],
+        correct: "Fear God and keep his commandments",
+        reason: "The duty of man in the scriptures is to Fear God and keep his commandments stated in Ecclesiastes 12:13.",
+        mode: "easy",
+        image: "images/prayer.jpg"
+      },
+      {
+        question: "What was the first miracle performed by Christ?",
+        answers: ["Healing of a blind man","Feeding of the five thousand", "Water turned into wine", "Jesus walking on water"],
+        correct: "Water turned into wine",
+        reason: "The first miracle Christ performed was turning water into wine in John 2:1.",
+        mode: "easy"
+      },
     
     ],
     medium: [
@@ -167,6 +182,30 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "The last words we know God said are it is finished in John 19:30.",
         mode: "Medium"
       },
+      {
+        question: "How many commandments did Moses receive?",
+        answers: ["10","8", "3", "1"],
+        correct: "10",
+        reason: "Moses received 10 commandments from God in Exodus 20:2-17.",
+        mode: "Medium",
+        image: "images/moses.jpg"
+      },
+      {
+        question: "To whom did God promise that his children should be in numbers as the stars in heaven?",
+        answers: ["Jacob","Abraham", "Moses", "Jethro"],
+        correct: "Abraham",
+        reason: "Abraham received a promise that his children should be in numbers as the stars in heaven from God in Genesis 15:5.",
+        mode: "Medium",
+        image: "images/abraham.jpg"
+      },
+      {
+        question: "What Old Testament book gave a prophesy about baby Jesus being conceived in Mary as a virgin?",
+        answers: ["Genesis","Exodus", "Proverbs", "Isaiah"],
+        correct: "Isaiah",
+        reason: "Isaiah was the Old Testament book that gave a prophesy about baby Jesus being conceived in Mary as a virgin in Matthew 1:18.",
+        mode: "Medium"
+      },
+      
        
     ],
     hard: [
@@ -234,6 +273,42 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Jonah", "Paul", "Elon", "Malachi", "Jesus"],
         correct: "Jonah",
         reason: "Jonah was a prophet sent as a missionary to the Ninevites in Jonah 1:1-2.",
+        mode: "hard"
+      },
+      {
+        question: "What queen of bible times who was the daughter of Queen Jezebel was called that wicked women?",
+        answers: ["Lydia", "Esther", "Athaliah", "Jezebel"],
+        correct: "Athaliah",
+        reason: "Athaliah was the daughter of Queen Jezebel and called that wicked women 2 Chronicles 24:7 because she murdered her children and grandchildren to become queen.",
+        mode: "hard",
+        image: "images/athaliah.jpg"
+      },
+      {
+        question: "Who was the first Christian Martyr?",
+        answers: ["Stephen", "Esther", "John", "Paul"],
+        correct: "Stephen",
+        reason: "Stephen was the first Christian Martyr stated in Acts 7:58.",
+        mode: "hard",
+      },
+      {
+        question: "What man, although warned, invited his murderer to a feast?",
+        answers: ["Jesse", "Gedaliah", "Gideon", "Jesus"],
+        correct: "Gedaliah",
+        reason: "Gedaliah invited his murderer to a feast in Jeremiah 40:14.",
+        mode: "hard",
+      },
+      {
+        question: "Did Adam and Eve have three sons?",
+        answers: ["Yes", "No"],
+        correct: "Yes",
+        reason: "Yes Adam and Eve had three sons Cain, Abel and Seth stated in Genesis 4:25.",
+        mode: "hard",
+      },
+      {
+        question: "Which of the following is not one of the 10 commandments of God in the Bible?",
+        answers: ["You shall not steal", "Remember the Sabbath", "You shall not judge others lest you be judged", "You shall not make yourself a carved image", "You shall not covet"],
+        correct: "You shall not judge others lest you be judged",
+        reason: "You shall not judge others lest you be judged is not one of the 10 commandments. You can see the 10 commandments in Exodus 20:2-17.",
         mode: "hard"
       },
       
