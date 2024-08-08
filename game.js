@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const quizData = {
     easy: [
       {
-        // need to add more categories because when they run out they go to other categories
         question: "How do you become a Christian?",
         answers: ["The Apostle's Creed", "The Lord's Prayer", "The ten Commandments", "Beleive Christ died for you"],
         correct: "Beleive Christ died for you",
@@ -355,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
   explanationButton.style.visibility = "hidden";
 
   // show buttons initially
-  answersContainer.style.visibility = "visible";
+  answersContainer.style.visibility = "visible"; 
 
   // Function to shuffle array elements
   function shuffleArray(array) {
@@ -366,11 +365,22 @@ document.addEventListener('DOMContentLoaded', () => {
     return array;
   }
   
-  // Function to filter questions based on selected category
   function getFilteredQuestions() {
-    return shuffleArray(quizData[difficulty].filter(question => {
-      return savedCategory === 'all' ? true : question.category === savedCategory;
-    }));
+    let allQuestions = [];
+
+    // Combine questions based on difficulty and category
+    if (difficulty === 'all') {
+      allQuestions = quizData.easy.concat(quizData.medium, quizData.hard);
+    } else {
+      allQuestions = quizData[difficulty];
+    }
+
+    // Filter based on category
+    if (savedCategory !== 'all') {
+      allQuestions = allQuestions.filter(question => question.category === savedCategory);
+    }
+    // Shuffle combined questions
+    return shuffleArray(allQuestions);
   }
 
   // Initial filtering of questions
@@ -455,6 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Function to show the explanation
   function showExplanation(reason) {
+    // put in webpage
     alert(reason);
   }
   
