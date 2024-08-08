@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Jesus is called the light of the world in John 8:12.",
         mode: "easy",
         image: "images/jesus.jpg",
-        category: "Christian Life based in the Bible"
+        category: "Questions with images"
       },
       {
         question: "What is the duty of man, according to the Scriptures?",
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "The duty of man in the scriptures is to Fear God and keep his commandments stated in Ecclesiastes 12:13.",
         mode: "easy",
         image: "images/prayer.jpg",
-        category: "Christian Life based in the Bible"
+        category: "Questions with images"
       },
       {
         question: "What was the first miracle performed by Christ?",
@@ -340,8 +340,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressBar = document.getElementById('progress-bar');
   const questionImage = document.getElementById('question-image');
   let points = 0;
-  // shuffles questions based on difficulty
-  //let questionsPool = shuffleArray(quizData[difficulty]);
   
   // Retrieve difficulty from local storage
   const savedDifficulty = localStorage.getItem('selectedDifficulty');
@@ -433,28 +431,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     questionsAnswered++;
-    if (savedDifficulty === 'all') {
-      adjustDifficulty();
-    }
     answersContainer.style.visibility = "hidden";
     explanationButton.onclick = () => showExplanation(reason);
     nextButton.style.visibility = 'visible'; // Show the "Next" button
     explanationButton.style.visibility = 'visible'; // Show the "Show Explanation" button
   }
-  
-  // Function to adjust the difficulty based on performance
-  function adjustDifficulty() {
-    const scorePercentage = (points / questionsAnswered) * 100;
-      if (scorePercentage >= 80 && difficulty !== 'hard') {
-        // If the condition is true (i.e., difficulty is 'easy'), then difficulty is set to 'medium' or If the condition is false (i.e., difficulty is not 'easy'), then difficulty is set to 'hard'.
-        difficulty = difficulty === 'easy' ? 'medium' : 'hard';
-        questionsPool = shuffleArray(quizData[difficulty]);
-      } else if (scorePercentage < 40 && difficulty !== 'easy') {
-        difficulty = difficulty === 'hard' ? 'medium' : 'easy';
-        questionsPool = shuffleArray(quizData[difficulty]);
-    }
-  
-}
 
   // Function to calculate and display score
   function displayScore(points) {
