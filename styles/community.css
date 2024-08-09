@@ -108,7 +108,7 @@
   }
   
   #next-button {
-    margin-top: 20px;
+    margin-top: -1000px; /* brings next button up so user doesn't have to scroll down */
   }
 
   
