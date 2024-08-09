@@ -340,7 +340,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const questionImage = document.getElementById('question-image');
   const reasonContainer = document.getElementById('reason');
   let points = 0;
-  let selectedAnswerElement;
   
   // Retrieve difficulty from local storage
   const savedDifficulty = localStorage.getItem('selectedDifficulty');
@@ -432,8 +431,11 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('answeredQuestions', JSON.stringify(answeredQuestions));
   
     if (selectedAnswer === correctAnswer) {
+      reasonContainer.textContent = "Correct: " + reasonContainer.textContent
       points++;
-    } 
+    } else {
+      reasonContainer.textContent = "Wrong: " + reasonContainer.textContent
+    }
     questionsAnswered++;
     answersContainer.style.visibility = "hidden";
     nextButton.style.visibility = 'visible';
@@ -459,6 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Event listener for the "Next" button
   nextButton.addEventListener('click', () => {
+    reasonContainer.textContent = reasonContainer.textContent
     currentQuestionIndex++;
     //reason.style.visibility = 'hidden'; // Hide the explanation text
     answersContainer.style.visibility = "visible";
