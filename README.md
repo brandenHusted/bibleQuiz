@@ -1,4 +1,4 @@
-How to get the Outreach Christian Church Game Working.
+How to get the Bible Quiz Working.
 
 Opening website:
 
@@ -44,10 +44,10 @@ Implementing any feedback you give me!
 This app's goal is for people to learn more about Outreach Christian Church and learn how to get involved and who we are in our community. I hope this small step can have a huge impact, have fun!
 
 Music information:
-Title: Positive Day
-Artist: Denys Kyshchuk
+Title: Inspiring and Energetic
+Artist: UNIVERSFIELD
 Source: Free Music Archive
-License type: CC BY
+License type: CC BY-SA
 
 
 
