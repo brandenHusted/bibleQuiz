@@ -336,10 +336,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const answersContainer = document.getElementById('answers-container');
   const nextButton = document.getElementById('next-button');
   const difficultyMode = document.getElementById('difficulty-mode');
-  const explanationButton = document.getElementById('explanation-button');
   const progressBar = document.getElementById('progress-bar');
   const questionImage = document.getElementById('question-image');
+  const reasonContainer = document.getElementById('reason');
   let points = 0;
+  let selectedAnswerElement;
   
   // Retrieve difficulty from local storage
   const savedDifficulty = localStorage.getItem('selectedDifficulty');
@@ -349,7 +350,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Hide buttons initially
   nextButton.style.visibility = "hidden";
-  explanationButton.style.visibility = "hidden";
 
   // show buttons initially
   answersContainer.style.visibility = "visible"; 
@@ -383,6 +383,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initial filtering of questions
   let questionsPool = getFilteredQuestions();
+
   // Function to load a question and its answers
   function loadQuestion() {
     if (questionsPool.length === 0) {
@@ -393,6 +394,9 @@ document.addEventListener('DOMContentLoaded', () => {
     answersContainer.innerHTML = '';
     difficultyMode.textContent = currentQuestion.mode;
 
+    reasonContainer.textContent = currentQuestion.reason
+    reasonContainer.style.display = 'none';
+
     // Set image source and display
     if (currentQuestion.image) {
       questionImage.src = currentQuestion.image;
@@ -401,7 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
       questionImage.src = '';
       questionImage.style.display = 'none'; // Hide image
     }
-
+    
     let shuffledAnswers = shuffleArray([...currentQuestion.answers]);
     shuffledAnswers.forEach(answer => {
       const button = document.createElement('button');
@@ -413,12 +417,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  function checkAnswer(selectedAnswer, correctAnswer, reason) {
+  function checkAnswer(selectedAnswer, correctAnswer) {
     // Store question data in localStorage
     const questionData = {
       question: questionText.textContent,
       selectedAnswer: selectedAnswer,
-      correctAnswer: correctAnswer
+      correctAnswer: correctAnswer,
+      reason: reasonContainer.textContent
     };
   
     // Retrieve existing questions data from localStorage or initialize an empty array
@@ -428,13 +433,12 @@ document.addEventListener('DOMContentLoaded', () => {
   
     if (selectedAnswer === correctAnswer) {
       points++;
-    }
-  
+    } 
     questionsAnswered++;
     answersContainer.style.visibility = "hidden";
-    explanationButton.onclick = () => showExplanation(reason);
-    nextButton.style.visibility = 'visible'; // Show the "Next" button
-    explanationButton.style.visibility = 'visible'; // Show the "Show Explanation" button
+    nextButton.style.visibility = 'visible';
+    // Display the explanation (reason)
+    document.getElementById('reason').style.display = 'block';
   }
 
   // Function to calculate and display score
@@ -444,11 +448,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.location.href = 'complete.html'; // Redirect to complete page
   }
 
-  // Function to show the explanation
-  function showExplanation(reason) {
-    // put in webpage
-    alert(reason);
-  }
   
 
   // Function to update the progress bar
@@ -461,17 +460,15 @@ document.addEventListener('DOMContentLoaded', () => {
   // Event listener for the "Next" button
   nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
+    //reason.style.visibility = 'hidden'; // Hide the explanation text
     answersContainer.style.visibility = "visible";
     if (currentQuestionIndex < 10) {
       loadQuestion(currentQuestionIndex);
       nextButton.style.visibility = 'hidden'; // Hide the "Next" button until an answer is selected
-      explanationButton.style.visibility = 'hidden';
       updateProgressBar(currentQuestionIndex);
     } else {
       nextButton.style.visibility = 'hidden'; // Hide the "Next" button at the end of the quiz
-      explanationButton.style.visibility = 'hidden';
       displayScore(points);
-      //window.location.href = 'complete.html';
     }
   });
 
