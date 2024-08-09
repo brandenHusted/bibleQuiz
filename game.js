@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         question: "Who is called the light of the world?",
-        answers: ["Jesus", "Moses", "John", "Abraham"],
+        answers: ["Jesus", "Moses", "Abraham"],
         correct: "Jesus",
         reason: "Jesus is called the light of the world in John 8:12.",
         mode: "easy",
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         question: "What is the duty of man, according to the Scriptures?",
-        answers: ["Fear God and keep his commandments", "Take care of the earth", "Love enemies", "Be fruitful and multiply"],
+        answers: ["Fear God and keep his commandments", "Love enemies", "Be fruitful and multiply"],
         correct: "Fear God and keep his commandments",
         reason: "The duty of man in the scriptures is to Fear God and keep his commandments stated in Ecclesiastes 12:13.",
         mode: "easy",
@@ -341,13 +341,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const reasonContainer = document.getElementById('reason');
   let points = 0;
   
-  // Retrieve difficulty from local storage
+  // Retrieve difficulty and category from local storage
   const savedDifficulty = localStorage.getItem('selectedDifficulty');
   const savedCategory = localStorage.getItem('selectedCategory');
   difficulty = savedDifficulty || 'easy'; // Default to 'easy' if no saved difficulty
   
-
-  // Hide buttons initially
+  // Hide button initially
   nextButton.style.visibility = "hidden";
 
   // show buttons initially
@@ -357,21 +356,18 @@ document.addEventListener('DOMContentLoaded', () => {
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
+      // Swap the element at index i with the element at index j
       [array[i], array[j]] = [array[j], array[i]];
     }
+    // return swapped array
     return array;
   }
   
   function getFilteredQuestions() {
     let allQuestions = [];
 
-    // Combine questions based on difficulty and category
-    if (difficulty === 'all') {
-      allQuestions = quizData.easy.concat(quizData.medium, quizData.hard);
-    } else {
-      allQuestions = quizData[difficulty];
-    }
-
+    // Combine questions based on difficulty
+    allQuestions = quizData[difficulty];
     // Filter based on category
     if (savedCategory !== 'all') {
       allQuestions = allQuestions.filter(question => question.category === savedCategory);
@@ -379,10 +375,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Shuffle combined questions
     return shuffleArray(allQuestions);
   }
-
-  // Initial filtering of questions
+  
   let questionsPool = getFilteredQuestions();
-
+  
   // Function to load a question and its answers
   function loadQuestion() {
     if (questionsPool.length === 0) {
@@ -431,10 +426,14 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('answeredQuestions', JSON.stringify(answeredQuestions));
   
     if (selectedAnswer === correctAnswer) {
-      reasonContainer.textContent = "Correct: " + reasonContainer.textContent
+      reasonContainer.textContent = "Correct: " + reasonContainer.textContent;
+      // hex for light green
+      reasonContainer.style.backgroundColor = "#90EE90";
       points++;
     } else {
-      reasonContainer.textContent = "Wrong: " + reasonContainer.textContent
+      reasonContainer.textContent = "Wrong: " + reasonContainer.textContent;
+      // hex for light red
+      reasonContainer.style.backgroundColor = "#FFCCCB";
     }
     questionsAnswered++;
     answersContainer.style.visibility = "hidden";
@@ -463,7 +462,6 @@ document.addEventListener('DOMContentLoaded', () => {
   nextButton.addEventListener('click', () => {
     reasonContainer.textContent = reasonContainer.textContent
     currentQuestionIndex++;
-    //reason.style.visibility = 'hidden'; // Hide the explanation text
     answersContainer.style.visibility = "visible";
     if (currentQuestionIndex < 10) {
       loadQuestion(currentQuestionIndex);
