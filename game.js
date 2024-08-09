@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         question: "How do you become a Christian?",
         answers: ["The Apostle's Creed", "The Lord's Prayer", "The ten Commandments", "Beleive Christ died for you"],
         correct: "Beleive Christ died for you",
-        reason: "Christian Formula = Christ was killed for us, His death has washed away our sins, and by dying he has disabled death itself. You are Christian by beleive Christ died for you.",
+        reason: "Christian Formula = Christ was killed for us, His death has washed away our sins, and by dying he has disabled death itself. You are Christian by beleiving Christ died for you.",
         mode: "easy",
         category: "Christian Life based in the Bible"
       },
@@ -134,6 +134,24 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Peter denies Jesus three times in John 13:38.",
         mode: "easy",
         image: "images/peter.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "Peter told Jesus he would lay down his life for him but Jesus told him he would do what three times?",
+        answers: ["Leave him", "Deny him", "Die with him", "Hate him"],
+        correct: "Deny him",
+        reason: "Peter denies Jesus three times in John 13:38.",
+        mode: "easy",
+        image: "images/peter.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "When Jesus was born, he was placed in a ___?",
+        answers: ["Manger", "Crib", "Cradle", "Throne"],
+        correct: "Manger",
+        reason: "Jesus was born and placed in a manger in Luke 2:7",
+        mode: "easy",
+        image: "images/manger.jpg",
         category: "Questions with images"
       },
     
@@ -359,7 +377,26 @@ document.addEventListener('DOMContentLoaded', () => {
   const progressBar = document.getElementById('progress-bar');
   const questionImage = document.getElementById('question-image');
   const reasonContainer = document.getElementById('reason');
+  const music = document.getElementById('background-music');
+  const playButton = document.getElementById('play-button');
   let points = 0;
+
+   // Initially pause the music
+   music.pause();
+
+   // Event listener for the "Play" button
+   playButton.addEventListener('click', () => {
+     if (music.paused) {
+       music.play();
+     } else {
+      music.pause();
+     }
+   });
+ 
+   // Optional: Ensure the music continues to play if it stops (e.g., due to buffering)
+   music.addEventListener('ended', () => {
+     music.play(); // Restart music if it ends
+   });
   
   // Retrieve difficulty and category from local storage
   const savedDifficulty = localStorage.getItem('selectedDifficulty');
