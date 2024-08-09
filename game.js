@@ -11,20 +11,20 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Christian Life based in the Bible"
       },
       {
+        question: "What word or phrase means giving somebody something good that he or she doesn't deserve?",
+        answers: ["Grace", "Forgiveness", "Love", "Kindness"],
+        correct: "Grace",
+        reason: "Grace is giving something good that he or she doesn't deserve.",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
+      },
+      {
         question: "What is the last word in the Bible?",
         answers: ["Amen", "Jesus", "Israel", "name"],
         correct: "Amen",
         reason: "The last word in the bible is Amen.",
         mode: "easy",
         category: "Common Facts about Bible"
-      },
-      {
-        question: "What town was Jesus born in?",
-        answers: ["Bethlehem", "Jerusalem", "Israel", "Nazareth"],
-        correct: "Bethlehem",
-        reason: "In Matthew 2:1-2 it states that Jesus was born in Bethlehem.",
-        mode: "easy",
-        category: "History in the Bible"
       },
       {
         question: "Romans 3:23 says that who has sinned?",
@@ -35,6 +35,31 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Common Facts about Bible"
       },
       {
+        question: "which books are the Gospels?",
+        answers: ["Matthew, Mark, Luke, John", "Matthew, Mark, Luke, John, Peter", "Numbers", "All of them"],
+        correct: "Matthew, Mark, Luke, John",
+        reason: "The Gospels are the records we have of Jesus' life. Matthew, Mark, Luke, John wrote down the teachings of Jesus.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      
+      {
+        question: "Who walked on water toward Jesus?",
+        answers: ["Peter", "Matthew", "Andrew", "John"],
+        correct: "Peter",
+        reason: "Peter walked on water toward Jesus in Matthew 14:22-33.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "What town was Jesus born in?",
+        answers: ["Bethlehem", "Jerusalem", "Israel", "Nazareth"],
+        correct: "Bethlehem",
+        reason: "In Matthew 2:1-2 it states that Jesus was born in Bethlehem.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
         question: "Who did God tell to let my people go?",
         answers: ["Moses", "Jesus", "David", "Abraham"],
         correct: "Moses",
@@ -43,26 +68,10 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "History in the Bible"
       },
       {
-        question: "which books are the Gospels?",
-        answers: ["Matthew, Mark, Luke, John", "Matthew, Mark, Luke, John, Peter", "Numbers", "All of them"],
-        correct: "Matthew, Mark, Luke, John",
-        reason: "The Gospels are the records we have of Jesus' life. Matthew, Mark, Luke, John wrote down the teachings of Jesus.",
-        mode: "easy",
-        category: "Common Facts about Bible"
-      },
-      {
-        question: "What word or phrase means giving somebody something good that he or she doesn't deserve?",
-        answers: ["Grace", "Forgiveness", "Love", "Kindness"],
-        correct: "Grace",
-        reason: "Grace is giving something good that he or she doesn't deserve.",
-        mode: "easy",
-        category: "Christian Life based in the Bible"
-      },
-      {
-        question: "Who walked on water toward Jesus?",
-        answers: ["Peter", "Matthew", "Andrew", "John"],
-        correct: "Peter",
-        reason: "Peter walked on water toward Jesus in Matthew 14:22-33.",
+        question: "What was the first miracle performed by Christ?",
+        answers: ["Healing of a blind man","Feeding of the five thousand", "Water turned into wine", "Jesus walking on water"],
+        correct: "Water turned into wine",
+        reason: "The first miracle Christ performed was turning water into wine in John 2:1.",
         mode: "easy",
         category: "History in the Bible"
       },
@@ -108,14 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
         image: "images/prayer.jpg",
         category: "Questions with images"
       },
-      {
-        question: "What was the first miracle performed by Christ?",
-        answers: ["Healing of a blind man","Feeding of the five thousand", "Water turned into wine", "Jesus walking on water"],
-        correct: "Water turned into wine",
-        reason: "The first miracle Christ performed was turning water into wine in John 2:1.",
-        mode: "easy",
-        category: "History in the Bible"
-      },
+      
       {
         question: "Were their two of each kind of animal on Noah's ark?",
         answers: ["Yes", "No"],
@@ -123,6 +125,15 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Yes there was two of each kind of animal on Noah's ark in Genesis 7:15.",
         mode: "easy",
         image: "images/ark.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "Peter told Jesus he would lay down his life for him but Jesus told him he would do what three times?",
+        answers: ["Leave him", "Deny him", "Die with him", "Hate him"],
+        correct: "Deny him",
+        reason: "Peter denies Jesus three times in John 13:38.",
+        mode: "easy",
+        image: "images/peter.jpg",
         category: "Questions with images"
       },
     
