@@ -116,6 +116,15 @@ document.addEventListener('DOMContentLoaded', () => {
         mode: "easy",
         category: "History in the Bible"
       },
+      {
+        question: "Were their two of each kind of animal on Noah's ark?",
+        answers: ["Yes", "No"],
+        correct: "Yes",
+        reason: "Yes there was two of each kind of animal on Noah's ark in Genesis 7:15.",
+        mode: "easy",
+        image: "images/ark.jpg",
+        category: "Questions with images"
+      },
     
     ],
     medium: [
@@ -424,6 +433,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let answeredQuestions = JSON.parse(localStorage.getItem('answeredQuestions')) || [];
     answeredQuestions.push(questionData);
     localStorage.setItem('answeredQuestions', JSON.stringify(answeredQuestions));
+    questionImage.style.display = 'none'; // Hide images
   
     if (selectedAnswer === correctAnswer) {
       reasonContainer.textContent = "Correct: " + reasonContainer.textContent;
