@@ -449,6 +449,238 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       
     ],
+    all: [
+      {
+        question: "What word or phrase means giving somebody something good that he or she doesn't deserve?",
+        answers: ["Grace", "Forgiveness", "Love", "Kindness"],
+        correct: "Grace",
+        reason: "Grace is giving something good that he or she doesn't deserve.",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "What is not required in order to stand in God's holy place?",
+        answers: ["Clean Hands", "Pure Heart", "Wealth", "Rejecting False Idols"],
+        correct: "Wealth",
+        reason: "Wealth is not required to stand in God's holy place stated in Psalms 24:4.",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Who walked on water toward Jesus?",
+        answers: ["Peter", "Matthew", "Andrew", "John"],
+        correct: "Peter",
+        reason: "Peter walked on water toward Jesus in Matthew 14:22-33.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "What town was Jesus born in?",
+        answers: ["Bethlehem", "Jerusalem", "Israel", "Nazareth"],
+        correct: "Bethlehem",
+        reason: "In Matthew 2:1-2 it states that Jesus was born in Bethlehem.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "Who did God tell to let my people go?",
+        answers: ["Moses", "Jesus", "David", "Abraham"],
+        correct: "Moses",
+        reason: "In Exodus 5:1 God told Moses to let my people go, so that they may hold a festival unto me in the wilderness.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "What was the first miracle performed by Christ?",
+        answers: ["Healing of a blind man","Feeding of the five thousand", "Water turned into wine", "Jesus walking on water"],
+        correct: "Water turned into wine",
+        reason: "The first miracle Christ performed was turning water into wine in John 2:1.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "Where did Jesus give his first sermon?",
+        answers: ["Nazareth","Jerusalem", "Capernaum", "Bethlehem"],
+        correct: "Nazareth",
+        reason: "Jesus gave his first sermon at Nazareth in Luke 4:14-30.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "Fill in the blank: Thy word is a ____ unto my feet, and a light unto my path.",
+        answers: ["Lamp", "light", "Beacon", "Guide"],
+        correct: "Lamp",
+        reason: "Thy word is a lamp unto my feet is in Psalm 119:105 in King James Version of the Bible.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "From what part of Adam's body did God create Eve?",
+        answers: ["thigh", "Gluteus Maximus", "Rib", "Elbow"],
+        correct: "Rib",
+        reason: "God created Eve with Adam's Rib in Genesis 2:21-22.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What is verse 1 in Genesis?",
+        answers: ["In the beginning God created the heavens and the earth", "In the beginning God created light from darkness", "Amen. Come, Lord Jesus", "And God said, Let there be light"],
+        correct: "In the beginning God created the heavens and the earth",
+        reason: "The first verse in the Bible is in the beginning God created the heavens and the earth.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What is the last word in the Bible?",
+        answers: ["Amen", "Jesus", "Israel", "name"],
+        correct: "Amen",
+        reason: "The last word in the bible is Amen.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "Romans 3:23 says that who has sinned?",
+        answers: ["Everyone", "The Devil", "Israel", "Peter"],
+        correct: "Everyone",
+        reason: "Romans 3:23 saids that everyone has sinned and fell short of the glory of God.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "which books are the Gospels?",
+        answers: ["Matthew, Mark, Luke, John", "Matthew, Mark, Luke, John, Peter", "Numbers", "All of them"],
+        correct: "Matthew, Mark, Luke, John",
+        reason: "The Gospels are the records we have of Jesus' life. Matthew, Mark, Luke, John wrote down the teachings of Jesus.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What does that each one of you know how to control his own body in holiness and honor mean?",
+        answers: ["Control your desire for sex", "Control excessive eating", "Fight in honor for God", "All of them"],
+        correct: "Control your desire for sex",
+        reason: "That each one of you know how to control his own body in holiness and honor means control your desire for sex. This is stated in 1 Thessalonians 4:4.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "We are called to be free in Christ so how do we use are freedom?",
+        answers: ["Serve one another humbly in love", "Indulge in the flesh", "Go hide out in a bunker and watch anime"],
+        correct: "Serve one another humbly in love",
+        reason: "We use are freedom to serve one another humbly in love. This is stated in Galatians 5:13.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "Who is called the light of the world?",
+        answers: ["Jesus", "Moses", "Abraham"],
+        correct: "Jesus",
+        reason: "Jesus is called the light of the world in John 8:12.",
+        mode: "easy",
+        image: "images/jesus.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What is the duty of man, according to the Scriptures?",
+        answers: ["Fear God and keep his commandments", "Love enemies", "Be fruitful and multiply"],
+        correct: "Fear God and keep his commandments",
+        reason: "The duty of man in the scriptures is to Fear God and keep his commandments stated in Ecclesiastes 12:13.",
+        mode: "easy",
+        image: "images/prayer.jpg",
+        category: "Questions with images"
+      },
+      
+      {
+        question: "Were their two of each kind of animal on Noah's ark?",
+        answers: ["Yes", "No"],
+        correct: "Yes",
+        reason: "Yes there was two of each kind of animal on Noah's ark in Genesis 7:15.",
+        mode: "easy",
+        image: "images/ark.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "Peter told Jesus he would lay down his life for him but Jesus told him he would do what three times?",
+        answers: ["Leave him", "Deny him", "Die with him", "Hate him"],
+        correct: "Deny him",
+        reason: "Peter denies Jesus three times in John 13:38.",
+        mode: "easy",
+        image: "images/peter.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "Peter told Jesus he would lay down his life for him but Jesus told him he would do what three times?",
+        answers: ["Leave him", "Deny him", "Die with him", "Hate him"],
+        correct: "Deny him",
+        reason: "Peter denies Jesus three times in John 13:38.",
+        mode: "easy",
+        image: "images/peter.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "When Jesus was born, he was placed in a ___?",
+        answers: ["Manger", "Crib", "Cradle", "Throne"],
+        correct: "Manger",
+        reason: "Jesus was born and placed in a manger in Luke 2:7",
+        mode: "easy",
+        image: "images/manger.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What land did God and Moses lead the Israelites out of bondage from?",
+        answers: ["Egypt", "Persia", "Israel", "Lebanon"],
+        correct: "Egypt",
+        reason: "God and Moses led the Israelites out of slavery in Egypt in Deuteronomy 5:6.",
+        mode: "easy",
+        image: "images/israelites.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "Jesus said many are called but few are ___?",
+        answers: ["Chosen", "Forgiven", "Followers", "Human"],
+        correct: "Chosen",
+        reason: "Jesus said many are called but few are chosen in Matthew 22:14.",
+        mode: "easy",
+        image: "images/chosen.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What did David use to defeat Goliath?",
+        answers: ["A sling and a stone", "A sword", "A pair of brass knuckles", "A semi-automatic shotgun"],
+        correct: "A sling and a stone",
+        reason: "David used a sling and a stone to defeat Goliath in 1 Samuel 50.",
+        mode: "easy",
+        image: "images/david.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What did Adam and Eve eat from the tree of knowledge of good and evil?",
+        answers: ["Apple", "Grape", "Cherries", "Paper"],
+        correct: "Apple",
+        reason: "Adam and Eve ate an apple from the tree of knowledge of good and evil in Genesis 3:6.",
+        mode: "easy",
+        image: "images/adam.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What did Paul say the saints would judge?",
+        answers: ["The world", "The church", "The vikings", "The pope"],
+        correct: "The church",
+        reason: "Paul said the saints would judge the church in 1 Corinthians 6:2.",
+        mode: "easy",
+        image: "images/paul.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "How many disciples were there?",
+        answers: ["12", "3", "11", "13"],
+        correct: "12",
+        reason: "There was 12 disciples. This was stated in Luke 6:13.",
+        mode: "easy",
+        image: "images/12-disciples.jpg",
+        category: "Questions with images"
+      },
+      
+    ]
   };
 
   let currentQuestionIndex = 0;
@@ -524,9 +756,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
   function getFilteredQuestions() {
     let allQuestions = [];
-
-    // Combine questions based on difficulty
-    allQuestions = quizData[difficulty];
+    // Otherwise, get questions based on the selected difficulty
+    allQuestions = quizData[savedDifficulty];
     // Filter based on category
     if (savedCategory !== 'all') {
       allQuestions = allQuestions.filter(question => question.category === savedCategory);
@@ -608,9 +839,6 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('scorePercentage', scorePercentageValue.toFixed(2));
     window.location.href = 'complete.html'; // Redirect to complete page
   }
-
-  
-
   // Function to update the progress bar
   function updateProgressBar(currentIndex) {
     const progressPercentage = ((currentIndex + 1) / 10) * 100;
