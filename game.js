@@ -246,77 +246,120 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Angel Gabriel", "Jesus Christ", "Paul", "The Devil"],
         correct: "Angel Gabriel",
         reason: "Angel Gabriel tells Mary to not fear, because you have found favor with God in Luke 1:30.",
-        mode: "medium"
-      },
-      {
-        question: "How many days did God blind Saul on the road to Damascus.",
-        answers: ["3 Days", "4 Days", "10 days", "30 days"],
-        correct: "3 Days",
-        reason: "God blinded Saul on the road to Damascus for 3 days in Acts 9:9 in the Bible.",
-        mode: "medium"
-      },
-      {
-        question: "Why was Saul on the road to Damascus breathing out murderous threats against the Lord's disciples?",
-        answers: ["He obtained arrest warrants from the Chief Priest", "To Attend a Religious Festival in Damascus", "To Obtain Permission from the Roman Authorities to Execute Disciples", "To Seek Forgiveness for His Sins"],
-        correct: "He obtained arrest warrants from the Chief Priest",
-        reason: "Saul obtained arrest warrants from the Chief Priest and he was out to imprison the Disciples in Acts 9:2 in the Bible.",
-        mode: "medium"
+        mode: "medium",
+        category: "Common Facts about Bible"
       },
       {
         question: "What was God's sign to Noah that he would never destroy the earth again?",
         answers: ["A Rainbow", "A Dove", "A Flood", "A Son"],
         correct: "A Rainbow",
         reason: "God's sign to Noah that he would never destroy the earth again was a rainbow in Genesis 9:13.",
-        mode: "medium"
+        mode: "medium",
+        category: "Common Facts about Bible"
       },
       {
         question: "Through what did God speak to Moses in the desert?",
         answers: ["A Dream", "A Thunderous Voice from Heaven", "A Thunderstorm", "A Burning Bush"],
         correct: "A Burning Bush",
         reason: "God spoke to Moses with A Burning Bush in Exodus 3:2-4.",
-        mode: "medium"
-      },
-      {
-        question: "How many sons did Jacob have?",
-        answers: ["3", "12", "6", "1","None"],
-        correct: "12",
-        reason: "Jacob had 12 sons in Genesis 49.",
-        mode: "medium"
-      },
-      {
-        question: "What day was the Sabbath in the bible?",
-        answers: ["Sunday", "Saturday", "Friday", "Sabbath doesn't matter"],
-        correct: "Saturday",
-        reason: "The Sabbath was viewed on Saturday the 7th day of the week. The 1st day of the week is Sunday so the last would be Saturday",
-        mode: "medium"
-      },
-      {
-        question: "Is Christianity based on humanitarian philosophy?",
-        answers: ["True","False"],
-        correct: "True",
-        reason: "True. Christianity emphasizes serving humanity and reducing suffering.",
-        mode: "Medium"
+        mode: "medium",
+        category: "Common Facts about Bible"
       },
       {
         question: "What were the first words God spoke to man?",
         answers: ["Rule the earth","Fill the earth", "Be fruitful and multiply", "Love your neighbor"],
         correct: "Be fruitful and multiply",
         reason: "God said Be fruitful and multiply in Genesis 1:28.",
-        mode: "Medium"
+        mode: "Medium",
+        category: "Common Facts about Bible"
       },
       {
         question: "Quote the first words of our Savior while on earth.",
         answers: ["Why are you searching for me? Didn't you know I would be in my Father's house","I am the way the truth and the life", "You shall love the Lord your God with all you mind, heart and soul", "I don't know maybe baby noises"],
         correct: "Why are you searching for me? Didn't you know I would be in my Father's house",
         reason: "The first words we know God said are Why are you searching for me? Didn't you know I would be in my Father's house in Luke 2:49.",
-        mode: "Medium"
+        mode: "Medium",
+        category: "Common Facts about Bible"
       },
       {
         question: "Quote the last words of our Savior while on earth.",
         answers: ["It is finished","Father forgive them for they do not know what they do", "Father into your hands I commit my spirit", "Love your neighbor"],
         correct: "It is finished",
         reason: "The last words we know God said are it is finished in John 19:30.",
-        mode: "Medium"
+        mode: "Medium",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "How many sons did Jacob have?",
+        answers: ["3", "12", "6", "1","None"],
+        correct: "12",
+        reason: "Jacob had 12 sons in Genesis 49.",
+        mode: "medium",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What is required for anyone to understand God's word?",
+        answers: ["Dictionary", "Holy Spirit", "Calvin degree", "All are helpful"],
+        correct: "Holy Spirit",
+        reason: "The Holy Spirit  is required to understand God's word. This is stated in 1 Corinthians 2:11.",
+        mode: "medium",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What was with the father (God) and manifested into us?",
+        answers: ["Firmament", "Knowledge", "Eternal life", "Discernment", "Good works"],
+        correct: "Eternal life",
+        reason: "Eternal Life is with God and has appeared to us. This is stated 1 John 1:2.",
+        mode: "medium",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "If you acknowledge the Son, you have what?",
+        answers: ["Great knowledge", "Wealth", "The Father", "Friends", "A Family"],
+        correct: "The Father",
+        reason: "If you acknowledge the Son you have the Father. This is stated in 1 John 2:23.",
+        mode: "medium",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "How many days did God blind Saul on the road to Damascus.",
+        answers: ["3 Days", "4 Days", "10 days", "30 days"],
+        correct: "3 Days",
+        reason: "God blinded Saul on the road to Damascus for 3 days in Acts 9:9 in the Bible.",
+        mode: "medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "Why was Saul on the road to Damascus breathing out murderous threats against the Lord's disciples?",
+        answers: ["He obtained arrest warrants from the Chief Priest", "To Attend a Religious Festival in Damascus", "To Obtain Permission from the Roman Authorities to Execute Disciples", "To Seek Forgiveness for His Sins"],
+        correct: "He obtained arrest warrants from the Chief Priest",
+        reason: "Saul obtained arrest warrants from the Chief Priest and he was out to imprison the Disciples in Acts 9:2 in the Bible.",
+        mode: "medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "What Old Testament book gave a prophesy about baby Jesus being conceived in Mary as a virgin?",
+        answers: ["Genesis","Exodus", "Proverbs", "Isaiah"],
+        correct: "Isaiah",
+        reason: "Isaiah was the Old Testament book that gave a prophesy about baby Jesus being conceived in Mary as a virgin in Matthew 1:18.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "What day was the Sabbath in the bible?",
+        answers: ["Sunday", "Saturday", "Friday", "Sabbath doesn't matter"],
+        correct: "Saturday",
+        reason: "The Sabbath was viewed on Saturday the 7th day of the week. The 1st day of the week is Sunday so the last would be Saturday",
+        mode: "medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Is Christianity based on humanitarian philosophy?",
+        answers: ["True","False"],
+        correct: "True",
+        reason: "True. Christianity emphasizes serving humanity and reducing suffering.",
+        mode: "Medium",
+        category: "Christian Life based in the Bible"
       },
       {
         question: "How many commandments did Moses receive?",
@@ -324,7 +367,8 @@ document.addEventListener('DOMContentLoaded', () => {
         correct: "10",
         reason: "Moses received 10 commandments from God in Exodus 20:2-17.",
         mode: "Medium",
-        image: "images/moses.jpg"
+        image: "images/moses.jpg",
+        category: "Questions with images"
       },
       {
         question: "To whom did God promise that his children should be in numbers as the stars in heaven?",
@@ -332,17 +376,9 @@ document.addEventListener('DOMContentLoaded', () => {
         correct: "Abraham",
         reason: "Abraham received a promise that his children should be in numbers as the stars in heaven from God in Genesis 15:5.",
         mode: "Medium",
-        image: "images/abraham.jpg"
-      },
-      {
-        question: "What Old Testament book gave a prophesy about baby Jesus being conceived in Mary as a virgin?",
-        answers: ["Genesis","Exodus", "Proverbs", "Isaiah"],
-        correct: "Isaiah",
-        reason: "Isaiah was the Old Testament book that gave a prophesy about baby Jesus being conceived in Mary as a virgin in Matthew 1:18.",
-        mode: "Medium"
-      },
-      
-       
+        image: "images/abraham.jpg",
+        category: "Questions with images"
+      },  
     ],
     hard: [
       {
@@ -350,81 +386,32 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["2-Ruth and Esther", "2-Ezra and Hosea", "1-Mary", "3-Colossians, Ruth and Lamentations"],
         correct: "2-Ruth and Esther",
         reason: "Ruth and Esther are the only books in the Bible named after women.",
-        mode: "hard"
+        mode: "hard",
+        category: "Common Facts about Bible"
       },
       {
         question: "Who said in the Bible am I my brother's keeper?",
         answers: ["Cain", "Moses", "Abel", "Noah", "Elijah"],
         correct: "Cain",
         reason: "Cain said am I my brother's keeper in Genesis 4:9 after he murdered Abel.",
-        mode: "hard"
+        mode: "hard",
+        category: "Common Facts about Bible"
       },
       {
         question: "What kind of tree did Zacchaeus climb on to see Jesus?",
         answers: ["Sycamore Tree", "Fig Tree", "Olive Tree", "Acacia Tree", "Tamarisk Tree"],
         correct: "Sycamore Tree",
         reason: "Zacchaeus climbed up a Sycamore tree in Luke 19:4-8.",
-        mode: "hard"
-      },
-      {
-        question: "Why does God allow bad things to happen?",
-        answers: ["Bad things happen because the whole world is controlled by the evil one", "Bad things happen because the world is controlled by sinners", "Bad things happen so we can turn bad things into good things", "Bad things happen because Christians let bad things happen"],
-        correct: "Bad things happen because the whole world is controlled by the evil one",
-        reason: "Bad things happen because the whole world is controlled by the evil one. This is stated in 1 John 5:19 in the Bible.",
         mode: "hard",
-        image: "images/badthings.jpg"
-      },
-      {
-        question: "which prophet was told by God to marry a prostitute?",
-        answers: ["Hosea", "Isaiah", "Barnabas", "Enoch"],
-        correct: "Hosea",
-        reason: "In Hosea 1:2-4 in the Bible. Hosea was told by God to marry a prostitute.",
-        mode: "hard",
-      },
-      {
-        question: "What Athenian judge was converted under Paul's preaching?",
-        answers: ["Eunice", "Candace", "Eubulus", "Dionysius"],
-        correct: "Dionysius",
-        reason: "Dionysius was converted under Paul's preaching in Acts 17:34.",
-        mode: "hard"
-      },
-      {
-        question: "How were the children of Israel guided in their forty years of wandering in the wilderness?",
-        answers: ["By a pillar of cloud by day and a pillar of fire by night", "By the voice of God", "By Moses", "Noah", "By Aaron's rod"],
-        correct: "By a pillar of cloud by day and a pillar of fire by night",
-        reason: "They were guided by a pillar of cloud by day and a pillar of fire by night. you can read this in Exodus 13:21.",
-        mode: "hard"
-      },
-      
-      {
-        question: "What king did God smite with Leprosy?",
-        answers: ["Athaliah", "Jehoram", "Amaziah", "Uzziah"],
-        correct: "Uzziah",
-        reason: "God smited Uzziah with Leprosy in 2 Chronicles 26:19.",
-        mode: "hard",
-        image: "images/leprosy.jpg"
+        category: "Common Facts about Bible"
       },
       {
         question: "What prophet was sent as a missionary to the Ninevites?",
         answers: ["Jonah", "Paul", "Elon", "Malachi", "Jesus"],
         correct: "Jonah",
         reason: "Jonah was a prophet sent as a missionary to the Ninevites in Jonah 1:1-2.",
-        mode: "hard"
-      },
-      {
-        question: "What queen of bible times who was the daughter of Queen Jezebel was called that wicked women?",
-        answers: ["Lydia", "Esther", "Athaliah", "Jezebel"],
-        correct: "Athaliah",
-        reason: "Athaliah was the daughter of Queen Jezebel and called that wicked women 2 Chronicles 24:7 because she murdered her children and grandchildren to become queen.",
         mode: "hard",
-        image: "images/athaliah.jpg"
-      },
-      {
-        question: "Who was the first Christian Martyr?",
-        answers: ["Stephen", "Esther", "John", "Paul"],
-        correct: "Stephen",
-        reason: "Stephen was the first Christian Martyr stated in Acts 7:58.",
-        mode: "hard",
+        category: "Common Facts about Bible"
       },
       {
         question: "What man, although warned, invited his murderer to a feast?",
@@ -432,6 +419,47 @@ document.addEventListener('DOMContentLoaded', () => {
         correct: "Gedaliah",
         reason: "Gedaliah invited his murderer to a feast in Jeremiah 40:14.",
         mode: "hard",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "Which of the following is not one of the 10 commandments of God in the Bible?",
+        answers: ["You shall not steal", "Remember the Sabbath", "You shall not judge others lest you be judged", "You shall not make yourself a carved image", "You shall not covet"],
+        correct: "You shall not judge others lest you be judged",
+        reason: "You shall not judge others lest you be judged is not one of the 10 commandments. You can see the 10 commandments in Exodus 20:2-17.",
+        mode: "hard",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "which prophet was told by God to marry a prostitute?",
+        answers: ["Hosea", "Isaiah", "Barnabas", "Enoch"],
+        correct: "Hosea",
+        reason: "In Hosea 1:2-4 in the Bible. Hosea was told by God to marry a prostitute.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "Who was the first Christian Martyr?",
+        answers: ["Stephen", "Esther", "John", "Paul"],
+        correct: "Stephen",
+        reason: "Stephen was the first Christian Martyr stated in Acts 7:58.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "What Athenian judge was converted under Paul's preaching?",
+        answers: ["Eunice", "Candace", "Eubulus", "Dionysius"],
+        correct: "Dionysius",
+        reason: "Dionysius was converted under Paul's preaching in Acts 17:34.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "How were the children of Israel guided in their forty years of wandering in the wilderness?",
+        answers: ["By a pillar of cloud by day and a pillar of fire by night", "By the voice of God", "By Moses", "Noah", "By Aaron's rod"],
+        correct: "By a pillar of cloud by day and a pillar of fire by night",
+        reason: "They were guided by a pillar of cloud by day and a pillar of fire by night. you can read this in Exodus 13:21.",
+        mode: "hard",
+        category: "History in the Bible"
       },
       {
         question: "Did Adam and Eve have three sons?",
@@ -439,13 +467,34 @@ document.addEventListener('DOMContentLoaded', () => {
         correct: "Yes",
         reason: "Yes Adam and Eve had three sons Cain, Abel and Seth stated in Genesis 4:25.",
         mode: "hard",
+        category: "History in the Bible"
       },
       {
-        question: "Which of the following is not one of the 10 commandments of God in the Bible?",
-        answers: ["You shall not steal", "Remember the Sabbath", "You shall not judge others lest you be judged", "You shall not make yourself a carved image", "You shall not covet"],
-        correct: "You shall not judge others lest you be judged",
-        reason: "You shall not judge others lest you be judged is not one of the 10 commandments. You can see the 10 commandments in Exodus 20:2-17.",
-        mode: "hard"
+        question: "Why does God allow bad things to happen?",
+        answers: ["Bad things happen because the whole world is controlled by the evil one", "Bad things happen because the world is controlled by sinners", "Bad things happen so we can turn bad things into good things", "Bad things happen because Christians let bad things happen"],
+        correct: "Bad things happen because the whole world is controlled by the evil one",
+        reason: "Bad things happen because the whole world is controlled by the evil one. This is stated in 1 John 5:19 in the Bible.",
+        mode: "hard",
+        image: "images/badthings.jpg",
+        category: "Questions with images"
+      }, 
+      {
+        question: "What king did God smite with Leprosy?",
+        answers: ["Athaliah", "Jehoram", "Amaziah", "Uzziah"],
+        correct: "Uzziah",
+        reason: "God smited Uzziah with Leprosy in 2 Chronicles 26:19.",
+        mode: "hard",
+        image: "images/leprosy.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What queen of bible times who was the daughter of Queen Jezebel was called that wicked women?",
+        answers: ["Lydia", "Esther", "Athaliah", "Jezebel"],
+        correct: "Athaliah",
+        reason: "Athaliah was the daughter of Queen Jezebel and called that wicked women 2 Chronicles 24:7 because she murdered her children and grandchildren to become queen.",
+        mode: "hard",
+        image: "images/athaliah.jpg",
+        category: "Questions with images"
       },
       
     ],
@@ -678,6 +727,57 @@ document.addEventListener('DOMContentLoaded', () => {
         mode: "easy",
         image: "images/12-disciples.jpg",
         category: "Questions with images"
+      },
+      {
+        question: "What king did God smite with Leprosy?",
+        answers: ["Athaliah", "Jehoram", "Amaziah", "Uzziah"],
+        correct: "Uzziah",
+        reason: "God smited Uzziah with Leprosy in 2 Chronicles 26:19.",
+        mode: "hard",
+        image: "images/leprosy.jpg"
+      },
+      {
+        question: "What prophet was sent as a missionary to the Ninevites?",
+        answers: ["Jonah", "Paul", "Elon", "Malachi", "Jesus"],
+        correct: "Jonah",
+        reason: "Jonah was a prophet sent as a missionary to the Ninevites in Jonah 1:1-2.",
+        mode: "hard"
+      },
+      {
+        question: "What queen of bible times who was the daughter of Queen Jezebel was called that wicked women?",
+        answers: ["Lydia", "Esther", "Athaliah", "Jezebel"],
+        correct: "Athaliah",
+        reason: "Athaliah was the daughter of Queen Jezebel and called that wicked women 2 Chronicles 24:7 because she murdered her children and grandchildren to become queen.",
+        mode: "hard",
+        image: "images/athaliah.jpg"
+      },
+      {
+        question: "Who was the first Christian Martyr?",
+        answers: ["Stephen", "Esther", "John", "Paul"],
+        correct: "Stephen",
+        reason: "Stephen was the first Christian Martyr stated in Acts 7:58.",
+        mode: "hard",
+      },
+      {
+        question: "What man, although warned, invited his murderer to a feast?",
+        answers: ["Jesse", "Gedaliah", "Gideon", "Jesus"],
+        correct: "Gedaliah",
+        reason: "Gedaliah invited his murderer to a feast in Jeremiah 40:14.",
+        mode: "hard",
+      },
+      {
+        question: "Did Adam and Eve have three sons?",
+        answers: ["Yes", "No"],
+        correct: "Yes",
+        reason: "Yes Adam and Eve had three sons Cain, Abel and Seth stated in Genesis 4:25.",
+        mode: "hard",
+      },
+      {
+        question: "Which of the following is not one of the 10 commandments of God in the Bible?",
+        answers: ["You shall not steal", "Remember the Sabbath", "You shall not judge others lest you be judged", "You shall not make yourself a carved image", "You shall not covet"],
+        correct: "You shall not judge others lest you be judged",
+        reason: "You shall not judge others lest you be judged is not one of the 10 commandments. You can see the 10 commandments in Exodus 20:2-17.",
+        mode: "hard"
       },
       
     ]
