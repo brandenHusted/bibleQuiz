@@ -38,6 +38,26 @@
     #play-button:hover {
       background-color: #0056b3;
     }
+    #dropup-content {
+      display: none;
+      position: fixed;
+      bottom: 60px; /* Position above the button */
+      right: 20px;
+      background-color: #f9f9f9;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 9;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    #dropup-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    #dropup-content a:hover {
+      background-color: #f1f1f1;
+    }
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -98,10 +118,18 @@
 </head>
 <body>
   <audio id="background-music" autoplay loop>
-    <source src="Energetic.mp3" type="audio/mp3">
     Your browser does not support the audio element.
   </audio>
   <button id="play-button">Play Music</button>
+  <div id="dropup-content">
+    <a href="#" data-song="songs/Energetic.mp3">Energetic</a>
+    <a href="#" data-song="songs/positiveDay.mp3">Folk</a>
+    <a href="#" data-song="songs/Instrumental.mp3">Instrumental</a>
+    <a href="#" data-song="songs/Dubstep.mp3">Dubstep</a>
+    <a href="#" data-song="songs/Calm.mp3">Low Sci-Fi</a>
+    <a href="#" data-song="songs/rock.mp3">Indie-Rock</a>
+    <a href="#" data-song="">No Music</a>
+  </div>
   <p id="difficulty-mode"></p>
   <div id="quiz-container">
     <p id="question-text">Loading...</p>

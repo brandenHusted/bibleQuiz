@@ -19,30 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Christian Life based in the Bible"
       },
       {
-        question: "What is the last word in the Bible?",
-        answers: ["Amen", "Jesus", "Israel", "name"],
-        correct: "Amen",
-        reason: "The last word in the bible is Amen.",
+        question: "What is not required in order to stand in God's holy place?",
+        answers: ["Clean Hands", "Pure Heart", "Wealth", "Rejecting False Idols"],
+        correct: "Wealth",
+        reason: "Wealth is not required to stand in God's holy place stated in Psalms 24:4.",
         mode: "easy",
-        category: "Common Facts about Bible"
+        category: "Christian Life based in the Bible"
       },
-      {
-        question: "Romans 3:23 says that who has sinned?",
-        answers: ["Everyone", "The Devil", "Israel", "Peter"],
-        correct: "Everyone",
-        reason: "Romans 3:23 saids that everyone has sinned and fell short of the glory of God.",
-        mode: "easy",
-        category: "Common Facts about Bible"
-      },
-      {
-        question: "which books are the Gospels?",
-        answers: ["Matthew, Mark, Luke, John", "Matthew, Mark, Luke, John, Peter", "Numbers", "All of them"],
-        correct: "Matthew, Mark, Luke, John",
-        reason: "The Gospels are the records we have of Jesus' life. Matthew, Mark, Luke, John wrote down the teachings of Jesus.",
-        mode: "easy",
-        category: "Common Facts about Bible"
-      },
-      
       {
         question: "Who walked on water toward Jesus?",
         answers: ["Peter", "Matthew", "Andrew", "John"],
@@ -76,6 +59,14 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "History in the Bible"
       },
       {
+        question: "Where did Jesus give his first sermon?",
+        answers: ["Nazareth","Jerusalem", "Capernaum", "Bethlehem"],
+        correct: "Nazareth",
+        reason: "Jesus gave his first sermon at Nazareth in Luke 4:14-30.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
         question: "Fill in the blank: Thy word is a ____ unto my feet, and a light unto my path.",
         answers: ["Lamp", "light", "Beacon", "Guide"],
         correct: "Lamp",
@@ -96,6 +87,46 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["In the beginning God created the heavens and the earth", "In the beginning God created light from darkness", "Amen. Come, Lord Jesus", "And God said, Let there be light"],
         correct: "In the beginning God created the heavens and the earth",
         reason: "The first verse in the Bible is in the beginning God created the heavens and the earth.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What is the last word in the Bible?",
+        answers: ["Amen", "Jesus", "Israel", "name"],
+        correct: "Amen",
+        reason: "The last word in the bible is Amen.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "Romans 3:23 says that who has sinned?",
+        answers: ["Everyone", "The Devil", "Israel", "Peter"],
+        correct: "Everyone",
+        reason: "Romans 3:23 saids that everyone has sinned and fell short of the glory of God.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "which books are the Gospels?",
+        answers: ["Matthew, Mark, Luke, John", "Matthew, Mark, Luke, John, Peter", "Numbers", "All of them"],
+        correct: "Matthew, Mark, Luke, John",
+        reason: "The Gospels are the records we have of Jesus' life. Matthew, Mark, Luke, John wrote down the teachings of Jesus.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What does that each one of you know how to control his own body in holiness and honor mean?",
+        answers: ["Control your desire for sex", "Control excessive eating", "Fight in honor for God", "All of them"],
+        correct: "Control your desire for sex",
+        reason: "That each one of you know how to control his own body in holiness and honor means control your desire for sex. This is stated in 1 Thessalonians 4:4.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "We are called to be free in Christ so how do we use are freedom?",
+        answers: ["Serve one another humbly in love", "Indulge in the flesh", "Go hide out in a bunker and watch anime"],
+        correct: "Serve one another humbly in love",
+        reason: "We use are freedom to serve one another humbly in love. This is stated in Galatians 5:13.",
         mode: "easy",
         category: "Common Facts about Bible"
       },
@@ -154,6 +185,52 @@ document.addEventListener('DOMContentLoaded', () => {
         image: "images/manger.jpg",
         category: "Questions with images"
       },
+      {
+        question: "What land did God and Moses lead the Israelites out of bondage from?",
+        answers: ["Egypt", "Persia", "Israel", "Lebanon"],
+        correct: "Egypt",
+        reason: "God and Moses led the Israelites out of slavery in Egypt in Deuteronomy 5:6.",
+        mode: "easy",
+        image: "images/israelites.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "Jesus said many are called but few are ___?",
+        answers: ["Chosen", "Forgiven", "Followers", "Human"],
+        correct: "Chosen",
+        reason: "Jesus said many are called but few are chosen in Matthew 22:14.",
+        mode: "easy",
+        image: "images/chosen.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What did David use to defeat Goliath?",
+        answers: ["A sling and a stone", "A sword", "A pair of brass knuckles", "A semi-automatic shotgun"],
+        correct: "A sling and a stone",
+        reason: "David used a sling and a stone to defeat Goliath in 1 Samuel 50.",
+        mode: "easy",
+        image: "images/david.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What did Adam and Eve eat from the tree of knowledge of good and evil?",
+        answers: ["Apple", "Grape", "Cherries", "Paper"],
+        correct: "Apple",
+        reason: "Adam and Eve ate a apple from the tree of knowledge of good and evil in Genesis 3:6.",
+        mode: "easy",
+        image: "images/adam.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "What did Paul say the saints would judge?",
+        answers: ["The world", "The church", "The vikings", "The pope"],
+        correct: "The church",
+        reason: "Paul said the saints would judge the church in 1 Corinthians 6:2.",
+        mode: "easy",
+        image: "images/paul.jpg",
+        category: "Questions with images"
+      },
+      
     
     ],
     medium: [
@@ -379,11 +456,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const reasonContainer = document.getElementById('reason');
   const music = document.getElementById('background-music');
   const playButton = document.getElementById('play-button');
+  const dropupContent = document.getElementById('dropup-content');
   let points = 0;
 
+  // Toggle the dropup menu for music when the play button is clicked
+  playButton.addEventListener('click', () => {
+    dropupContent.style.display = dropupContent.style.display === 'block' ? 'none' : 'block';
+  });
+  // Play the selected song when a menu item is clicked
+  dropupContent.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const song = event.target.getAttribute('data-song');
+      music.src = song;
+      music.play();
+      dropupContent.style.display = 'none'; // Close the menu after selection
+    });
+  });
+  // Close the dropup menu if the user clicks outside of it
+  window.addEventListener('click', (event) => {
+    if (!event.target.matches('#play-button')) {
+      dropupContent.style.display = 'none';
+    }
+  });
    // Initially pause the music
    music.pause();
-
    // Event listener for the "Play" button
    playButton.addEventListener('click', () => {
      if (music.paused) {
@@ -392,8 +489,6 @@ document.addEventListener('DOMContentLoaded', () => {
       music.pause();
      }
    });
- 
-   // Optional: Ensure the music continues to play if it stops (e.g., due to buffering)
    music.addEventListener('ended', () => {
      music.play(); // Restart music if it ends
    });
