@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
         question: "What did Adam and Eve eat from the tree of knowledge of good and evil?",
         answers: ["Apple", "Grape", "Cherries", "Paper"],
         correct: "Apple",
-        reason: "Adam and Eve ate a apple from the tree of knowledge of good and evil in Genesis 3:6.",
+        reason: "Adam and Eve ate an apple from the tree of knowledge of good and evil in Genesis 3:6.",
         mode: "easy",
         image: "images/adam.jpg",
         category: "Questions with images"
@@ -230,8 +230,15 @@ document.addEventListener('DOMContentLoaded', () => {
         image: "images/paul.jpg",
         category: "Questions with images"
       },
-      
-    
+      {
+        question: "How many disciples were there?",
+        answers: ["12", "3", "11", "13"],
+        correct: "12",
+        reason: "There was 12 disciples. This was stated in Luke 6:13.",
+        mode: "easy",
+        image: "images/12-disciples.jpg",
+        category: "Questions with images"
+      },
     ],
     medium: [
       {
