@@ -454,7 +454,7 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Common Facts about Bible"
       },
       {
-        question: "1 Timothy says in the latter times, some people will speak in lies and hypocrisy and their consciences will be...??",
+        question: "1 Timothy says in the latter times, some people will speak in lies and hypocrisy and their consciences will be...?",
         answers: ["Marred by the enemy", "Seared with a hot iron", "Blemished by sin", "Constricted by a rope", "Open to the demons"],
         correct: "Seared with a hot iron",
         reason: "Some people will speak in lies and hypocrisy and their consciences will be seared with a hot iron in 1 Timothy 4:2.",
