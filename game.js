@@ -362,6 +362,14 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Christian Life based in the Bible"
       },
       {
+        question: "Whoever hates his brother is what?",
+        answers: ["A murderer","A bad brother", "Misled", "A lier"],
+        correct: "A murderer",
+        reason: "Whoever hates his brother is a murderer in 1 John 3:15.",
+        mode: "Medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
         question: "How many commandments did Moses receive?",
         answers: ["10","8", "3", "1"],
         correct: "10",
@@ -382,10 +390,26 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     hard: [
       {
+        question: "Who gives a spiritual increase?",
+        answers: ["Ministers","Missionaries", "God", "Angels", "The body of Christ"],
+        correct: "The body of Christ",
+        reason: "The body of Christ gives spiritual increase and makes things grow in 1 Corinthians 3:7.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
         question: "How many books in the Bible are named after women?",
         answers: ["2-Ruth and Esther", "2-Ezra and Hosea", "1-Mary", "3-Colossians, Ruth and Lamentations"],
         correct: "2-Ruth and Esther",
         reason: "Ruth and Esther are the only books in the Bible named after women.",
+        mode: "hard",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "The Lord tells Judah via Habakkuk that the earth will be filled with what?",
+        answers: ["The knowledge of the glory of the Lord", "The awe of the glory of the Lord", "The light of the glory of the Lord", "The power of the glory of the Lord"],
+        correct: "The knowledge of the glory of the Lord",
+        reason: "The earth will be filled with the knowledge of the glory of the Lord according to Habakkuk 2:14.",
         mode: "hard",
         category: "Common Facts about Bible"
       },
@@ -430,10 +454,50 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Common Facts about Bible"
       },
       {
+        question: "1 Timothy says in the latter times, some people will speak in lies and hypocrisy and their consciences will be...??",
+        answers: ["Marred by the enemy", "Seared with a hot iron", "Blemished by sin", "Constricted by a rope", "Open to the demons"],
+        correct: "Seared with a hot iron",
+        reason: "Some people will speak in lies and hypocrisy and their consciences will be seared with a hot iron in 1 Timothy 4:2.",
+        mode: "hard",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What does Paul warn the Philippians?",
+        answers: ["Beware of dogs", "God will strike you down", "Follow the narrow road", "Jesus will come soon", "Beware the leaven of the Pharisees"],
+        correct: "Beware of dogs",
+        reason: "Paul says beware of dogs, beware of evil doers in Philippians 3:2.",
+        mode: "hard",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "Jabez prayed that the God of Israel would bless him and expand his borders. What did God do?",
+        answers: ["Killed him", "Made him king", "Sent armies against him", "Granted his request", "Ignored him"],
+        correct: "Granted his request",
+        reason: "God granted his request to bless Jabez and expand his borders in 1 Chronicles 4:10.",
+        mode: "hard",
+        category: "Common Facts about Bible"
+      },
+      {
         question: "which prophet was told by God to marry a prostitute?",
         answers: ["Hosea", "Isaiah", "Barnabas", "Enoch"],
         correct: "Hosea",
         reason: "In Hosea 1:2-4 in the Bible. Hosea was told by God to marry a prostitute.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "How much was a 20 year old male worth in Israel during the time of Moses?",
+        answers: ["30 Shekels of Silver", "10 Shekels of Silver", "20 Shekels of Silver", "50 Shekels of Silver"],
+        correct: "20 Shekels of Silver",
+        reason: "In ancient Israel, a male 5-20 years old was worth 20 shekels of silver according to Leviticus 27:5.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "How much was a 20 year old female worth in Israel during the time of Moses?",
+        answers: ["30 Shekels of Silver", "10 Shekels of Silver", "20 Shekels of Silver", "50 Shekels of Silver"],
+        correct: "10 Shekels of Silver",
+        reason: "In ancient Israel, a female 5-20 years old was worth 10 shekels of silver according to Leviticus 27:5.",
         mode: "hard",
         category: "History in the Bible"
       },
