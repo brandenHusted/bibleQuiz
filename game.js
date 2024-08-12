@@ -147,14 +147,6 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "History in the Bible"
       },
       {
-        question: "What appeared just before Elijah was taken up into heaven?",
-        answers: ["John Cena","A sack of gold", "A chariot of fire", "A bronze ox"],
-        correct: "A chariot of fire",
-        reason: "A chariot of fire appeared just before Elijah was taken to heaven in a whirlwind in 2 Kings 2:11.",
-        mode: "Medium",
-        category: "History in the Bible"
-      },
-      {
         question: "In 1 Kings 13, how was the unfaithful man of God killed?",
         answers: ["By goats","By sword", "By the united states army", "By lion"],
         correct: "By lion",
