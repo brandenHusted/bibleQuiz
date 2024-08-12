@@ -59,12 +59,28 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Christian Life based in the Bible"
       },
       {
-        question: "Who walked on water toward Jesus?",
-        answers: ["Peter", "Matthew", "Andrew", "John"],
-        correct: "Peter",
-        reason: "Peter walked on water toward Jesus in Matthew 14:22-33.",
+        question: "Whats the relationship between Christianity and Judaism?",
+        answers: ["Both religions are monotheistic", "They both beleive Christ is the messiah", "Only Christianity beleives in one God"],
+        correct: "Both religions are monotheistic",
+        reason: "Both religions are monotheistic, both beleive that their is one God stated in 1 Corinthians 8:6.",
         mode: "easy",
-        category: "History in the Bible"
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Which one is not an example of a good deed?",
+        answers: ["Helping your neighbor", "Laying down your life for a friend", "Informing others about the homeless man you gave $50,000 so he can have food", "All of these are examples of good deeds"],
+        correct: "Informing others about the homeless man you gave $50,000 so he can have food",
+        reason: "Informing others about the homeless man you gave $50,000 so he can have food is not a good deed. This is stated in Matthew 6:1-4.",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Is it a sin to not read your Bible daily?",
+        answers: ["Yes", "No"],
+        correct: "No",
+        reason: "No, reading your Bible daily is not a requirement for eternal life although no one will stop you from doing it!",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
       },
       {
         question: "What town was Jesus born in?",
@@ -83,19 +99,75 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "History in the Bible"
       },
       {
-        question: "What was the first miracle performed by Christ?",
-        answers: ["Healing of a blind man","Feeding of the five thousand", "Water turned into wine", "Jesus walking on water"],
-        correct: "Water turned into wine",
-        reason: "The first miracle Christ performed was turning water into wine in John 2:1.",
-        mode: "easy",
-        category: "History in the Bible"
-      },
-      {
         question: "Where did Jesus give his first sermon?",
         answers: ["Nazareth","Jerusalem", "Capernaum", "Bethlehem"],
         correct: "Nazareth",
         reason: "Jesus gave his first sermon at Nazareth in Luke 4:14-30.",
         mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "What instrument sounds the alarm of war, in Jeremiah?",
+        answers: ["Trumpet","Guitar", "Drums", "Lyre"],
+        correct: "Trumpet",
+        reason: "A trumpet sounded the alarm of war in Jeremiah 4:19.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "what day did the Lord speak to Moses in the Desert of Sinai?",
+        answers: ["First day of the second month of the second year","Last day of the second month of the third year", "Christmas Eve"],
+        correct: "First day of the second month of the second year",
+        reason: "The Lord speak to Moses in the Desert of Sinai in the first day of the second month of the second year in numbers 1:1.",
+        mode: "easy",
+        category: "History in the Bible"
+      },
+      {
+        question: "Did Adam and Eve have three sons?",
+        answers: ["Yes", "No"],
+        correct: "Yes",
+        reason: "Yes Adam and Eve had three sons Cain, Abel and Seth stated in Genesis 4:25.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "How many years did it take Solomon to build the Lord's temple?",
+        answers: ["Five","Six", "Seven", "Eight"],
+        correct: "Seven",
+        reason: "It took seven years for Solomon to build the Lord's temple in 1 Kings 6:38.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "What appeared just before Elijah was taken up into heaven?",
+        answers: ["John Cena","A sack of gold", "A chariot of fire", "A bronze ox"],
+        correct: "A chariot of fire",
+        reason: "A chariot of fire appeared just before Elijah was taken to heaven in a whirlwind in 2 Kings 2:11.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "What appeared just before Elijah was taken up into heaven?",
+        answers: ["John Cena","A sack of gold", "A chariot of fire", "A bronze ox"],
+        correct: "A chariot of fire",
+        reason: "A chariot of fire appeared just before Elijah was taken to heaven in a whirlwind in 2 Kings 2:11.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "In 1 Kings 13, how was the unfaithful man of God killed?",
+        answers: ["By goats","By sword", "By the united states army", "By lion"],
+        correct: "By lion",
+        reason: "The unfaithful man of God were killed by a lion in 1 Kings 13:24.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "How did Judus die?",
+        answers: ["Suicide","By sword", "Accidentally"],
+        correct: "Suicide",
+        reason: "Judus died by suicide in Matthew 27:3-10.",
+        mode: "Medium",
         category: "History in the Bible"
       },
       {
@@ -107,10 +179,26 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Common Facts about Bible"
       },
       {
+        question: "Who walked on water toward Jesus?",
+        answers: ["Peter", "Matthew", "Andrew", "John"],
+        correct: "Peter",
+        reason: "Peter walked on water toward Jesus in Matthew 14:22-33.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
         question: "From what part of Adam's body did God create Eve?",
         answers: ["thigh", "Gluteus Maximus", "Rib", "Elbow"],
         correct: "Rib",
         reason: "God created Eve with Adam's Rib in Genesis 2:21-22.",
+        mode: "easy",
+        category: "Common Facts about Bible"
+      },
+      {
+        question: "What was the first miracle performed by Christ?",
+        answers: ["Healing of a blind man","Feeding of the five thousand", "Water turned into wine", "Jesus walking on water"],
+        correct: "Water turned into wine",
+        reason: "The first miracle Christ performed was turning water into wine in John 2:1.",
         mode: "easy",
         category: "Common Facts about Bible"
       },
@@ -369,6 +457,62 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "History in the Bible"
       },
       {
+        question: "Whose lineage is described in 1 Chronicles 1?",
+        answers: ["The entire Israelite people","Noah specifically", "The tribe of Benjamin specifically", "The prophet Elijah"],
+        correct: "The entire Israelite people",
+        reason: "The entire Israelite people is described in 1 Chronicles 1.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "What covenant did God give to Abraham?",
+        answers: ["Circumcision","Passover", "Salvation", "Wisdom"],
+        correct: "Circumcision",
+        reason: "God covenant given to Abraham was Circumcision in Acts 7:8.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "How many years was Jehoram king of Israel?",
+        answers: ["12","14", "16", "18"],
+        correct: "12",
+        reason: "Jehoram reigned twelve years in 2 Kings 3:1.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "In 2 Kings 7, who sacked the Syrian camp?",
+        answers: ["Children","Widows", "Lepers", "Prophets"],
+        correct: "Lepers",
+        reason: "Lepers sacked the abandoned Syrian camp in 2 Kings 7:8.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "Who was Solomon's mother?",
+        answers: ["Hannah","Bathsheba", "Abigail", "Haggith"],
+        correct: "Bathsheba",
+        reason: "Bathsheba was the mother of Solomon in 1 Kings 1:11.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "The earliest writing in the new testament is?",
+        answers: ["Matthew","Mark", "Paul's letters", "None of the above"],
+        correct: "Paul's letters",
+        reason: "The earliest writing in the new testament is Paul's letters. An example of Paul's early writings is Thessalonians 1:1.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
+        question: "The Gospel of Thomas is?",
+        answers: ["Another account of the death of Jesus","A lost book of the Bible", "A collection of Jesus' sayings attributed to the apostle Thomas", "None of the above"],
+        correct: "A collection of Jesus' sayings attributed to the apostle Thomas",
+        reason: "The gospel of Thomas is A collection of Jesus' sayings attributed to the apostle Thomas that was excluded from biblical canon.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
         question: "What day was the Sabbath in the bible?",
         answers: ["Sunday", "Saturday", "Friday", "Sabbath doesn't matter"],
         correct: "Saturday",
@@ -565,10 +709,18 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "History in the Bible"
       },
       {
-        question: "Did Adam and Eve have three sons?",
-        answers: ["Yes", "No"],
-        correct: "Yes",
-        reason: "Yes Adam and Eve had three sons Cain, Abel and Seth stated in Genesis 4:25.",
+        question: "Who was the son of Saul and rival king to David who was decapitated by Baanah and Rechab?",
+        answers: ["Ishbosheth", "Agabus", "Ishbaal", "Tobiah", "Baruch"],
+        correct: "Ishbosheth",
+        reason: "Ishbosheth was the son of Saul and rival king to David who was decapitated by Baanah and Rechab in 2 Samuel 4:7.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "Genesis 41:45 tells of the Pharaoh of Egypt giving Joseph a new name. What was it?",
+        answers: ["Zaphenath-Paneah", "Talitha-Cumi", "Chushan-Rishathaim", "Almon-Diblathaim"],
+        correct: "Zaphenath-Paneah",
+        reason: "Zaphenath-Paneah was Joseph's new name.",
         mode: "hard",
         category: "History in the Bible"
       },
