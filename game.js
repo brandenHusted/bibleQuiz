@@ -974,8 +974,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Function to load a question and its answers
   function loadQuestion() {
     if (questionsPool.length === 0) {
-      // display score when out of questions so questions are not repeated twice. Used mostly for testing purposes.
-      displayScore(points);
+      // Used for when all questions is pressed for the quiz.
+      questionsPool = shuffleArray(quizData[difficulty]);
     }
     const currentQuestion = questionsPool.pop();
     questionText.textContent = currentQuestion.question;
