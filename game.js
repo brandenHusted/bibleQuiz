@@ -505,6 +505,14 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "History in the Bible"
       },
       {
+        question: "Why were the people angered after Jesus read in the synagogue of Nazareth?",
+        answers: ["Because He proclaimed that he was the one sent to be Lord","Because he had told them that they were all blasphemers", "Because he had thrown chairs and pews and destroyed the sanctuary", "Because he urged them to repent of their sins"],
+        correct: "Because He proclaimed that he was the one sent to be Lord",
+        reason: "They were angered because because He proclaimed that he was the one sent to be Lord in Luke 4:23.",
+        mode: "Medium",
+        category: "History in the Bible"
+      },
+      {
         question: "What day was the Sabbath in the bible?",
         answers: ["Sunday", "Saturday", "Friday", "Sabbath doesn't matter"],
         correct: "Saturday",
@@ -533,6 +541,54 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["A murderer","A bad brother", "Misled", "A lier"],
         correct: "A murderer",
         reason: "Whoever hates his brother is a murderer in 1 John 3:15.",
+        mode: "Medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Does God want you to be happy?",
+        answers: ["True","False"],
+        correct: "True",
+        reason: "God wants you to be happy in 1 Chronicles 16:27.",
+        mode: "Medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "What will Jesus give to Paul and those who love His appearing?",
+        answers: ["A crown of righteousness","A beautiful white horse", "A new name", "Caramel cinnamon rolls"],
+        correct: "A crown of righteousness",
+        reason: "There is laid up for Paul a crown of righteousness which the Lord will give him in 2 Timothy 4:8.",
+        mode: "Medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Where does 'pride of life' come from?",
+        answers: ["The love of self","The love of the world", "The love of a spouse", "The love of God"],
+        correct: "The love of the world",
+        reason: "The love of the world is the correct answer. If something is of the world, it is not of God. This is stated in 1 John 2:16.",
+        mode: "Medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "In 1 John 4:18 when there is love, there is no what?",
+        answers: ["Fear","Sin", "Anger", "Condemnation"],
+        correct: "Fear",
+        reason: "Perfect love casts out fear in 1 John 4:18.",
+        mode: "Medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Jesus tasted what for every man?",
+        answers: ["Life","Broccoli","Death", "Victory"],
+        correct: "Death",
+        reason: "The grace of God should taste death for every man in Hebrews 2:9.",
+        mode: "Medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "When Christ returns, those who are saved will meet him where?",
+        answers: ["Mount Zion","Jerusalem","Heaven", "Purgatory", "Air"],
+        correct: "Air",
+        reason: "The living will meet Christ in the air in 1 Thessalonians 4:17.",
         mode: "Medium",
         category: "Christian Life based in the Bible"
       },
@@ -569,6 +625,70 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["If something bad happens, it is not from God","No, everything is not God's will", "Yes, everything is from God and is God's will", "If something good happens it is from the devil"],
         correct: "No, everything is not God's will",
         reason: "Their is human ideas and God's ideas and not everything you do is beneficial that is why it is important to pray and get close to God. This is stated in 1 Corinthians 10:23.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "If we _______ our sins, he is ______ and ______ to forgive us our sins?",
+        answers: ["Confess, faithful, just","Confess, faithful, happy", "Keep, unwilling, not able", "Confess, willing, kind"],
+        correct: "Confess, faithful, just",
+        reason: "If we confess our sins, he is faithful and just to forgive us our sins. This is stated in 1 John 1:9.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "What does Paul tell Timothy not to be ashamed of?",
+        answers: ["Paul","Dying", "Persecution", "The testimony of the Lord", "None of the above"],
+        correct: "The testimony of the Lord",
+        reason: "He instructed Timothy to not be ashamed of his testimony of the Lord Jesus in 2 Timothy 1:8.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Are all beleivers disciples?",
+        answers: ["Yes","No"],
+        correct: "No",
+        reason: "No, All disciples are beleivers but not all beleivers are disciples.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "What is the mystery that has been hidden from the ages?",
+        answers: ["The church is the bride of Christ","Christ destroyed the power of the devil on the cross", "God would graft the Gentiles into Israel", "Christ in you, the hope of glory"],
+        correct: "Christ in you, the hope of glory",
+        reason: "The mystery hid from the ages now manifest to the saints - Christ in you, the hope of glory in Colossians 1:27.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "What happens if we endure in our faith?",
+        answers: ["We will live","We will reign with Him", "We will see God", "We will overcome evil"],
+        correct: "We will reign with Him",
+        reason: "If we endure, we will also reign with Him stated in 2 Timothy 2:12.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "According to Paul, good ministers of Jesus Christ should reject what?",
+        answers: ["Universalism","Old wives' fables", "Legalism", "Sacrifices", "Pork"],
+        correct: "Old wives' fables",
+        reason: "Paul says the church should reject old wives' fables (tales), and exercise thyself rather unto godliness in 1 Timothy 4:7.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Will life like in the days of Noah come back?",
+        answers: ["Yes","No"],
+        correct: "Yes",
+        reason: "Yes, Just like in the days of Noah so will it be in the second coming of Christ in Matthew 24:37-39.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "How does a person become a vessel of honor?",
+        answers: ["By faith","By good works","By prayer","By cleansing himself","By baptism"],
+        correct: "By cleansing himself",
+        reason: "If anyone cleanses himself, he will be a vessel for honor in 2 Timothy 2:21.",
         mode: "hard",
         category: "Christian Life based in the Bible"
       },
@@ -713,6 +833,22 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Zaphenath-Paneah", "Talitha-Cumi", "Chushan-Rishathaim", "Almon-Diblathaim"],
         correct: "Zaphenath-Paneah",
         reason: "Zaphenath-Paneah was Joseph's new name.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "According to Amos 9:14, when the remnant of Israel is restored, what benefits will it enjoy?",
+        answers: ["Rebuilt cities and productive gardens", "Good health", "Answered prayers", "Rest from their enemies"],
+        correct: "Rebuilt cities and productive gardens",
+        reason: "When the remnant of Israel is restored, it will enjoy rebuilt cities and productive gardens according to Amos 9:14.",
+        mode: "hard",
+        category: "History in the Bible"
+      },
+      {
+        question: "During the time of Judges in Israel, why did Micah want the Levite from Bethlehem to live with him?",
+        answers: ["To remove the curse his mother placed on him", "To pray to Jehovah for him", "Because he would have a Levite to be the priest at his personal shrine", "So the blessing of the Lord would be upon his house", "So he would have protection from his enemies"],
+        correct: "Because he would have a Levite to be the priest at his personal shrine",
+        reason: "Micah wanted the Levite from Bethlehem to live with him because he would have a Levite to be the priest at his personal shrine in Judges Chapter 17.",
         mode: "hard",
         category: "History in the Bible"
       },
