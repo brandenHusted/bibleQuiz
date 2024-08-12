@@ -11,6 +11,30 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Christian Life based in the Bible"
       },
       {
+        question: "What does God give us to help us remain strong in our faith and to become holy?",
+        answers: ["The Guardian Angel", "The Holy Spirit", "The prophets", "The Bible"],
+        correct: "The Holy Spirit",
+        reason: "To help us remain strong in our faith and to become holy God gives us the Holy Spirit. This is stated in 1 Thessalonians 4:8.",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "The Apostle Paul tells Timothy that the law was not made for a righteous person, but for whom?",
+        answers: ["Lawless", "Ungodly", "Disobedient", "Liars", "All of the above"],
+        correct: "All of the above",
+        reason: "The law was made for all of the above. This is stated in 1 Timothy 1:8-11.",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "When is the day of salvation?",
+        answers: ["After you die", "When you are born", "Any time", "Now"],
+        correct: "Now",
+        reason: "Behold now is the accepted time; behold, now is the day of salvation. This is stated in 2 Corinthians 6:2.",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
+      },
+      {
         question: "What word or phrase means giving somebody something good that he or she doesn't deserve?",
         answers: ["Grace", "Forgiveness", "Love", "Kindness"],
         correct: "Grace",
@@ -23,6 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Clean Hands", "Pure Heart", "Wealth", "Rejecting False Idols"],
         correct: "Wealth",
         reason: "Wealth is not required to stand in God's holy place stated in Psalms 24:4.",
+        mode: "easy",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "How can I be a Christian when good people in this world always get hurt by bad people?",
+        answers: ["Trust that God wants you to serve him", "Pain can awaken us to God", "Remember that bad people are hurting", "All of the above"],
+        correct: "All of the above",
+        reason: "All of the above are ways you can be a Christian when good people in this world always get hurt by bad people. This is stated in Luke 6:27-29.",
         mode: "easy",
         category: "Christian Life based in the Bible"
       },
@@ -156,15 +188,6 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "Yes there was two of each kind of animal on Noah's ark in Genesis 7:15.",
         mode: "easy",
         image: "images/ark.jpg",
-        category: "Questions with images"
-      },
-      {
-        question: "Peter told Jesus he would lay down his life for him but Jesus told him he would do what three times?",
-        answers: ["Leave him", "Deny him", "Die with him", "Hate him"],
-        correct: "Deny him",
-        reason: "Peter denies Jesus three times in John 13:38.",
-        mode: "easy",
-        image: "images/peter.jpg",
         category: "Questions with images"
       },
       {
@@ -349,7 +372,15 @@ document.addEventListener('DOMContentLoaded', () => {
         question: "What day was the Sabbath in the bible?",
         answers: ["Sunday", "Saturday", "Friday", "Sabbath doesn't matter"],
         correct: "Saturday",
-        reason: "The Sabbath was viewed on Saturday the 7th day of the week. The 1st day of the week is Sunday so the last would be Saturday",
+        reason: "The Sabbath was viewed on Saturday the 7th day of the week. The 1st day of the week is Sunday so the last would be Saturday.",
+        mode: "medium",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "What woman in the Old Testament does Peter tell women to be like?",
+        answers: ["Eve", "Anna", "Esther", "Sara"],
+        correct: "Sara",
+        reason: "Peter tells women to be like Sara and do what is right and not give way to fear in 1 Peter 3:6.",
         mode: "medium",
         category: "Christian Life based in the Bible"
       },
@@ -394,6 +425,14 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Ministers","Missionaries", "God", "Angels", "The body of Christ"],
         correct: "The body of Christ",
         reason: "The body of Christ gives spiritual increase and makes things grow in 1 Corinthians 3:7.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
+        question: "Does God will have a reason for everything that happens in this world?",
+        answers: ["If something bad happens, it is not from God","No, everything is not God's will", "Yes, everything is from God and is God's will", "If something good happens it is from the devil"],
+        correct: "No, everything is not God's will",
+        reason: "Their is human ideas and God's ideas and not everything you do is beneficial that is why it is important to pray and get close to God. This is stated in 1 Corinthians 10:23.",
         mode: "hard",
         category: "Christian Life based in the Bible"
       },
@@ -935,7 +974,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Function to load a question and its answers
   function loadQuestion() {
     if (questionsPool.length === 0) {
-      questionsPool = shuffleArray(quizData[difficulty]);
+      // display score when out of questions so questions are not repeated twice. Used mostly for testing purposes.
+      displayScore(points);
     }
     const currentQuestion = questionsPool.pop();
     questionText.textContent = currentQuestion.question;
