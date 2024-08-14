@@ -2189,14 +2189,14 @@ document.addEventListener('DOMContentLoaded', () => {
       reasonContainer.style.backgroundColor = "#90EE90";
       points++;
       triggerFireworks();
-      playSoundForDuration(900); 
+      playCorrectSoundForDuration(900); 
       
     } else {
       reasonContainer.textContent = "Wrong: " + reasonContainer.textContent;
       // hex for light red
       reasonContainer.style.backgroundColor = "#FFCCCB";
-      const sound = document.getElementById('incorrect-sound');
-      sound.play();
+      playIncorrectSoundForDuration(900);
+      
     }
     questionsAnswered++;
     answersContainer.style.visibility = "hidden";
@@ -2217,8 +2217,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function playSoundForDuration(duration) {
+  function playCorrectSoundForDuration(duration) {
     const sound = document.getElementById('correct-sound');
+    sound.play();
+    setTimeout(() => {
+      sound.pause();           
+      sound.currentTime = 0;   // Reset the audio to the beginning
+    }, duration);
+  }
+
+  function playIncorrectSoundForDuration(duration) {
+    const sound = document.getElementById('incorrect-sound');
     sound.play();
     setTimeout(() => {
       sound.pause();           
