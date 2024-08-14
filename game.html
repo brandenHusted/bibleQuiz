@@ -85,6 +85,9 @@
       gap: 15px;
       margin-bottom: 20px;
     }
+    #difficulty-mode {
+      color: white;
+    }
     label {
       font-weight: bold;
       margin-right: 10px;
@@ -114,6 +117,7 @@
       text-align: center;
       margin-top: 20px;
     }
+    
   </style>
 </head>
 <body>
@@ -136,6 +140,9 @@
     <div style="display: flex; justify-content: center; align-items: center;">
       <img id="question-image" src="" alt="Question Image" style="display: none; width: 80%; max-width: 300px;">
     </div>
+    <audio id="correct-sound" src="sounds/correct.mp3"></audio>
+    <audio id="incorrect-sound" src="sounds/incorrect.mp3"></audio>
+      <div id="fireworks-container"></div>
     <div id="reason"></div>
     <div id="answers-container"></div>
     <button id="next-button">Next</button>

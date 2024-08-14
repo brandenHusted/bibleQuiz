@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Yes", "No"],
         correct: "Yes",
         reason: "Yes Adam and Eve had three sons Cain, Abel and Seth stated in Genesis 4:25.",
-        mode: "hard",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Five","Six", "Seven", "Eight"],
         correct: "Seven",
         reason: "It took seven years for Solomon to build the Lord's temple in 1 Kings 6:38.",
-        mode: "Medium",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["John Cena","A sack of gold", "A chariot of fire", "A bronze ox"],
         correct: "A chariot of fire",
         reason: "A chariot of fire appeared just before Elijah was taken to heaven in a whirlwind in 2 Kings 2:11.",
-        mode: "Medium",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["By goats","By sword", "By the united states army", "By lion"],
         correct: "By lion",
         reason: "The unfaithful man of God were killed by a lion in 1 Kings 13:24.",
-        mode: "Medium",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Suicide","By sword", "Accidentally"],
         correct: "Suicide",
         reason: "Judus died by suicide in Matthew 27:3-10.",
-        mode: "Medium",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -340,6 +340,15 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "There was 12 disciples. This was stated in Luke 6:13.",
         mode: "easy",
         image: "images/12-disciples.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "How many commandments did Moses receive?",
+        answers: ["10","8", "3", "1"],
+        correct: "10",
+        reason: "Moses received 10 commandments from God in Exodus 20:2-17.",
+        mode: "easy",
+        image: "images/moses.jpg",
         category: "Questions with images"
       },
     ],
@@ -593,15 +602,6 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Christian Life based in the Bible"
       },
       {
-        question: "How many commandments did Moses receive?",
-        answers: ["10","8", "3", "1"],
-        correct: "10",
-        reason: "Moses received 10 commandments from God in Exodus 20:2-17.",
-        mode: "Medium",
-        image: "images/moses.jpg",
-        category: "Questions with images"
-      },
-      {
         question: "To whom did God promise that his children should be in numbers as the stars in heaven?",
         answers: ["Jacob","Abraham", "Moses", "Jethro"],
         correct: "Abraham",
@@ -680,6 +680,15 @@ document.addEventListener('DOMContentLoaded', () => {
         reason: "When our bodies are changed, what will they look like Like the glorious body of Jesus. This is stated in Philippians 3:21.",
         mode: "Medium",
         image: "images/body.jpg",
+        category: "Questions with images"
+      },
+      {
+        question: "The cherubim appeared to have the form of a man's hand under their ___?",
+        answers: ["Chins", "Hair", "Feet", "Wings"],
+        correct: "Wings",
+        reason: "The cherubim appeared to have the form of a man's hand under their wings in Ezekiel 10:8.",
+        mode: "Medium",
+        image: "images/Cherubim.jpg",
         category: "Questions with images"
       },
     ],
@@ -997,15 +1006,6 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Questions with images"
       },
       {
-        question: "The cherubim appeared to have the form of a man's hand under their ___?",
-        answers: ["Chins", "Hair", "Feet", "Wings"],
-        correct: "Wings",
-        reason: "The cherubim appeared to have the form of a man's hand under their wings in Ezekiel 10:8.",
-        mode: "hard",
-        image: "images/Cherubim.jpg",
-        category: "Questions with images"
-      },
-      {
         question: "Where was Goliath from?",
         answers: ["Edom", "Gath", "Azekah", "Akik"],
         correct: "Gath",
@@ -1014,9 +1014,27 @@ document.addEventListener('DOMContentLoaded', () => {
         image: "images/goliath.jpg",
         category: "Questions with images"
       },
+      {
+        question: "How many plagues were inflicted upon Egypt before Pharaoh finally released the Israelites?",
+        answers: ["7", "10", "12", "3"],
+        correct: "10",
+        reason: "There was 10 plagues inflicted upon Egypt in Exodus 7-11.",
+        mode: "hard",
+        image: "images/exodus.jpg",
+        category: "Questions with images"
+      },
       
     ],
     all: [
+      {
+        question: "How many plagues were inflicted upon Egypt before Pharaoh finally released the Israelites?",
+        answers: ["7", "10", "12", "3"],
+        correct: "10",
+        reason: "There was 10 plagues inflicted upon Egypt in Exodus 7-11.",
+        mode: "hard",
+        image: "images/exodus.jpg",
+        category: "Questions with images"
+      },
       {
         question: "How do you become a Christian?",
         answers: ["The Apostle's Creed", "The Lord's Prayer", "The ten Commandments", "Beleive Christ died for you"],
@@ -2039,8 +2057,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const questionImage = document.getElementById('question-image');
   const reasonContainer = document.getElementById('reason');
   const music = document.getElementById('background-music');
+  const sound = document.getElementById('soundEffect');
   const playButton = document.getElementById('play-button');
   const dropupContent = document.getElementById('dropup-content');
+  const container = document.getElementById('fireworks-container');
   let points = 0;
 
   // Toggle the dropup menu for music when the play button is clicked
@@ -2101,7 +2121,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
   function getFilteredQuestions() {
     let allQuestions = [];
-    // Otherwise, get questions based on the selected difficulty
+    // Get questions based on the selected difficulty
+    // added all field for all questions
     allQuestions = quizData[savedDifficulty];
     // Filter based on category
     if (savedCategory !== 'all') {
@@ -2167,16 +2188,33 @@ document.addEventListener('DOMContentLoaded', () => {
       // hex for light green
       reasonContainer.style.backgroundColor = "#90EE90";
       points++;
+      triggerFireworks();
+      const sound = document.getElementById('correct-sound');
+      sound.play();
     } else {
       reasonContainer.textContent = "Wrong: " + reasonContainer.textContent;
       // hex for light red
       reasonContainer.style.backgroundColor = "#FFCCCB";
+      const sound = document.getElementById('incorrect-sound');
+      sound.play();
     }
     questionsAnswered++;
     answersContainer.style.visibility = "hidden";
     nextButton.style.visibility = 'visible';
     // Display the explanation (reason)
     document.getElementById('reason').style.display = 'block';
+  }
+
+  function triggerFireworks() {
+    for (let i = 0; i < 10; i++) {
+      // creating fireworks if question is right
+      const firework = document.createElement('div');
+      firework.className = 'firework';
+      firework.style.top = `${Math.random() * 100}%`;
+      firework.style.left = `${Math.random() * 100}%`;
+      container.appendChild(firework);
+  
+    }
   }
 
   // Function to calculate and display score
