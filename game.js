@@ -2189,8 +2189,8 @@ document.addEventListener('DOMContentLoaded', () => {
       reasonContainer.style.backgroundColor = "#90EE90";
       points++;
       triggerFireworks();
-      const sound = document.getElementById('correct-sound');
-      sound.play();
+      playSoundForDuration(900); 
+      
     } else {
       reasonContainer.textContent = "Wrong: " + reasonContainer.textContent;
       // hex for light red
@@ -2215,6 +2215,15 @@ document.addEventListener('DOMContentLoaded', () => {
       container.appendChild(firework);
   
     }
+  }
+
+  function playSoundForDuration(duration) {
+    const sound = document.getElementById('correct-sound');
+    sound.play();
+    setTimeout(() => {
+      sound.pause();           
+      sound.currentTime = 0;   // Reset the audio to the beginning
+    }, duration);
   }
 
   // Function to calculate and display score
