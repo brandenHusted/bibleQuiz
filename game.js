@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Rule the earth","Fill the earth", "Be fruitful and multiply", "Love your neighbor"],
         correct: "Be fruitful and multiply",
         reason: "God said Be fruitful and multiply in Genesis 1:28.",
-        mode: "Medium",
+        mode: "medium",
         category: "Common Facts about Bible"
       },
       {
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Why are you searching for me? Didn't you know I would be in my Father's house","I am the way the truth and the life", "You shall love the Lord your God with all you mind, heart and soul", "I don't know maybe baby noises"],
         correct: "Why are you searching for me? Didn't you know I would be in my Father's house",
         reason: "The first words we know God said are Why are you searching for me? Didn't you know I would be in my Father's house in Luke 2:49.",
-        mode: "Medium",
+        mode: "medium",
         category: "Common Facts about Bible"
       },
       {
@@ -398,7 +398,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["It is finished","Father forgive them for they do not know what they do", "Father into your hands I commit my spirit", "Love your neighbor"],
         correct: "It is finished",
         reason: "The last words we know God said are it is finished in John 19:30.",
-        mode: "Medium",
+        mode: "medium",
         category: "Common Facts about Bible"
       },
       {
@@ -454,7 +454,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Genesis","Exodus", "Proverbs", "Isaiah"],
         correct: "Isaiah",
         reason: "Isaiah was the Old Testament book that gave a prophesy about baby Jesus being conceived in Mary as a virgin in Matthew 1:18.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -462,7 +462,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["The entire Israelite people","Noah specifically", "The tribe of Benjamin specifically", "The prophet Elijah"],
         correct: "The entire Israelite people",
         reason: "The entire Israelite people is described in 1 Chronicles 1.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -470,7 +470,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Circumcision","Passover", "Salvation", "Wisdom"],
         correct: "Circumcision",
         reason: "God covenant given to Abraham was Circumcision in Acts 7:8.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -478,7 +478,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["12","14", "16", "18"],
         correct: "12",
         reason: "Jehoram reigned twelve years in 2 Kings 3:1.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -486,7 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Children","Widows", "Lepers", "Prophets"],
         correct: "Lepers",
         reason: "Lepers sacked the abandoned Syrian camp in 2 Kings 7:8.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -494,7 +494,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Hannah","Bathsheba", "Abigail", "Haggith"],
         correct: "Bathsheba",
         reason: "Bathsheba was the mother of Solomon in 1 Kings 1:11.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -502,7 +502,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Matthew","Mark", "Paul's letters", "None of the above"],
         correct: "Paul's letters",
         reason: "The earliest writing in the new testament is Paul's letters. An example of Paul's early writings is Thessalonians 1:1.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -510,7 +510,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Another account of the death of Jesus","A lost book of the Bible", "A collection of Jesus' sayings attributed to the apostle Thomas", "None of the above"],
         correct: "A collection of Jesus' sayings attributed to the apostle Thomas",
         reason: "The gospel of Thomas is A collection of Jesus' sayings attributed to the apostle Thomas that was excluded from biblical canon.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -518,7 +518,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Because He proclaimed that he was the one sent to be Lord","Because he had told them that they were all blasphemers", "Because he had thrown chairs and pews and destroyed the sanctuary", "Because he urged them to repent of their sins"],
         correct: "Because He proclaimed that he was the one sent to be Lord",
         reason: "They were angered because because He proclaimed that he was the one sent to be Lord in Luke 4:23.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -542,7 +542,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["True","False"],
         correct: "True",
         reason: "True. Christianity emphasizes serving humanity and reducing suffering.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -550,15 +550,15 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["A murderer","A bad brother", "Misled", "A lier"],
         correct: "A murderer",
         reason: "Whoever hates his brother is a murderer in 1 John 3:15.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
-        question: "Does God want you to be happy?",
-        answers: ["True","False"],
-        correct: "True",
-        reason: "God wants you to be happy in 1 Chronicles 16:27.",
-        mode: "Medium",
+        question: "Will life like in the days of Noah come back?",
+        answers: ["Yes","No"],
+        correct: "Yes",
+        reason: "Yes, Just like in the days of Noah so will it be in the second coming of Christ in Matthew 24:37-39.",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -566,7 +566,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["A crown of righteousness","A beautiful white horse", "A new name", "Caramel cinnamon rolls"],
         correct: "A crown of righteousness",
         reason: "There is laid up for Paul a crown of righteousness which the Lord will give him in 2 Timothy 4:8.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -574,7 +574,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["The love of self","The love of the world", "The love of a spouse", "The love of God"],
         correct: "The love of the world",
         reason: "The love of the world is the correct answer. If something is of the world, it is not of God. This is stated in 1 John 2:16.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -582,7 +582,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Fear","Sin", "Anger", "Condemnation"],
         correct: "Fear",
         reason: "Perfect love casts out fear in 1 John 4:18.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -590,7 +590,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Life","Broccoli","Death", "Victory"],
         correct: "Death",
         reason: "The grace of God should taste death for every man in Hebrews 2:9.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -598,7 +598,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Mount Zion","Jerusalem","Heaven", "Purgatory", "Air"],
         correct: "Air",
         reason: "The living will meet Christ in the air in 1 Thessalonians 4:17.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -606,7 +606,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Jacob","Abraham", "Moses", "Jethro"],
         correct: "Abraham",
         reason: "Abraham received a promise that his children should be in numbers as the stars in heaven from God in Genesis 15:5.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/abraham.jpg",
         category: "Questions with images"
       }, 
@@ -615,7 +615,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Colossians","John", "2 John", "Mark"],
         correct: "John",
         reason: "The book of John tells of Jesus's encounter with the Samaritan women at the well in John 4:1-26.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/samaritan.jpg",
         category: "Questions with images"
       }, 
@@ -624,7 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Left","Feet", "Back", "Side"],
         correct: "Left",
         reason: "A wise man's heart is at his right hand, but a fool's heart at his left in Ecclesiastes 10:2.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/left.jpg",
         category: "Questions with images"
       },
@@ -633,7 +633,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Desolate","Sad", "Lonely", "Parched"],
         correct: "Desolate",
         reason: "He has turned aside my ways and torn me in pieces; He has made me desolate in Lamentations 3:11.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/desolate.jpg",
         category: "Questions with images"
       },
@@ -642,7 +642,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Frankincense","Myrrh", "Silver", "Gold"],
         correct: "Silver",
         reason: "Silver was not a gift brought to Jesus by wise men in Matthew 2:11.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/wise.jpg",
         category: "Questions with images"
       },
@@ -651,7 +651,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Thomas","Bartholomew", "Simon", "Philip"],
         correct: "Simon",
         reason: "Simon's name was changed to Peter in Matthew 16:18.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/simon.jpg",
         category: "Questions with images"
       },
@@ -660,7 +660,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["The 144,000 witnesses","Those who have come out of the great tribulation", "Old Testament saints", "The ones who will return to earth with Christ to battle the beast"],
         correct: "Those who have come out of the great tribulation",
         reason: "Apostle John saw dressed in white robes around the throne of God those who have come out of the great tribulation in Revelation 7:13-14.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/revelation.jpg",
         category: "Questions with images"
       },
@@ -669,7 +669,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["He endangered his livelihood","He threatened him", "He tried to baptize him", "He tried to love him"],
         correct: "He endangered his livelihood",
         reason: "Demetrius complained about paul because he endangered his livelihood in Acts Chapter 19:24-25.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/Demetrius.jpg",
         category: "Questions with images"
       },
@@ -678,7 +678,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Like the glorious body of Jesus","Like a bodybuilder", "Like an angel's", "It's a mystery, no one knows"],
         correct: "Like the glorious body of Jesus",
         reason: "When our bodies are changed, what will they look like Like the glorious body of Jesus. This is stated in Philippians 3:21.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/body.jpg",
         category: "Questions with images"
       },
@@ -687,7 +687,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Chins", "Hair", "Feet", "Wings"],
         correct: "Wings",
         reason: "The cherubim appeared to have the form of a man's hand under their wings in Ezekiel 10:8.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/Cherubim.jpg",
         category: "Questions with images"
       },
@@ -758,10 +758,10 @@ document.addEventListener('DOMContentLoaded', () => {
         category: "Christian Life based in the Bible"
       },
       {
-        question: "Will life like in the days of Noah come back?",
-        answers: ["Yes","No"],
-        correct: "Yes",
-        reason: "Yes, Just like in the days of Noah so will it be in the second coming of Christ in Matthew 24:37-39.",
+        question: "On what three occasions are we told that Jesus wept?",
+        answers: ["In Gethsemane and twice in Bethlehem","In Jerusalem and twice in Nazareth", "At the grave of Lazarus, over Jerusalem and in Gethsemane", "At the grave of Lazarus, over Bethlehem and in Gethsemane"],
+        correct: "At the grave of Lazarus, over Jerusalem and in Gethsemane",
+        reason: "Jesus wept at the grave of Lazarus, over Jerusalem and in Gethsemane in John 11:33, Luke 19:41 and Hebrews 5:7.",
         mode: "hard",
         category: "Christian Life based in the Bible"
       },
@@ -1027,6 +1027,14 @@ document.addEventListener('DOMContentLoaded', () => {
     ],
     all: [
       {
+        question: "On what three occasions are we told that Jesus wept?",
+        answers: ["In Gethsemane and twice in Bethlehem","In Jerusalem and twice in Nazareth", "At the grave of Lazarus, over Jerusalem and in Gethsemane", "At the grave of Lazarus, over Bethlehem and in Gethsemane"],
+        correct: "At the grave of Lazarus, over Jerusalem and in Gethsemane",
+        reason: "Jesus wept at the grave of Lazarus, over Jerusalem and in Gethsemane in John 11:33, Luke 19:41 and Hebrews 5:7.",
+        mode: "hard",
+        category: "Christian Life based in the Bible"
+      },
+      {
         question: "How many plagues were inflicted upon Egypt before Pharaoh finally released the Israelites?",
         answers: ["7", "10", "12", "3"],
         correct: "10",
@@ -1160,7 +1168,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Yes", "No"],
         correct: "Yes",
         reason: "Yes Adam and Eve had three sons Cain, Abel and Seth stated in Genesis 4:25.",
-        mode: "hard",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -1168,7 +1176,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Five","Six", "Seven", "Eight"],
         correct: "Seven",
         reason: "It took seven years for Solomon to build the Lord's temple in 1 Kings 6:38.",
-        mode: "Medium",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -1176,7 +1184,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["John Cena","A sack of gold", "A chariot of fire", "A bronze ox"],
         correct: "A chariot of fire",
         reason: "A chariot of fire appeared just before Elijah was taken to heaven in a whirlwind in 2 Kings 2:11.",
-        mode: "Medium",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -1184,7 +1192,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["By goats","By sword", "By the united states army", "By lion"],
         correct: "By lion",
         reason: "The unfaithful man of God were killed by a lion in 1 Kings 13:24.",
-        mode: "Medium",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -1192,7 +1200,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Suicide","By sword", "Accidentally"],
         correct: "Suicide",
         reason: "Judus died by suicide in Matthew 27:3-10.",
-        mode: "Medium",
+        mode: "easy",
         category: "History in the Bible"
       },
       {
@@ -1404,7 +1412,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Rule the earth","Fill the earth", "Be fruitful and multiply", "Love your neighbor"],
         correct: "Be fruitful and multiply",
         reason: "God said Be fruitful and multiply in Genesis 1:28.",
-        mode: "Medium",
+        mode: "medium",
         category: "Common Facts about Bible"
       },
       {
@@ -1412,7 +1420,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Why are you searching for me? Didn't you know I would be in my Father's house","I am the way the truth and the life", "You shall love the Lord your God with all you mind, heart and soul", "I don't know maybe baby noises"],
         correct: "Why are you searching for me? Didn't you know I would be in my Father's house",
         reason: "The first words we know God said are Why are you searching for me? Didn't you know I would be in my Father's house in Luke 2:49.",
-        mode: "Medium",
+        mode: "medium",
         category: "Common Facts about Bible"
       },
       {
@@ -1420,7 +1428,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["It is finished","Father forgive them for they do not know what they do", "Father into your hands I commit my spirit", "Love your neighbor"],
         correct: "It is finished",
         reason: "The last words we know God said are it is finished in John 19:30.",
-        mode: "Medium",
+        mode: "medium",
         category: "Common Facts about Bible"
       },
       {
@@ -1476,7 +1484,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Genesis","Exodus", "Proverbs", "Isaiah"],
         correct: "Isaiah",
         reason: "Isaiah was the Old Testament book that gave a prophesy about baby Jesus being conceived in Mary as a virgin in Matthew 1:18.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1484,7 +1492,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["The entire Israelite people","Noah specifically", "The tribe of Benjamin specifically", "The prophet Elijah"],
         correct: "The entire Israelite people",
         reason: "The entire Israelite people is described in 1 Chronicles 1.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1492,7 +1500,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Circumcision","Passover", "Salvation", "Wisdom"],
         correct: "Circumcision",
         reason: "God covenant given to Abraham was Circumcision in Acts 7:8.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1500,7 +1508,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["12","14", "16", "18"],
         correct: "12",
         reason: "Jehoram reigned twelve years in 2 Kings 3:1.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1508,7 +1516,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Children","Widows", "Lepers", "Prophets"],
         correct: "Lepers",
         reason: "Lepers sacked the abandoned Syrian camp in 2 Kings 7:8.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1516,7 +1524,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Hannah","Bathsheba", "Abigail", "Haggith"],
         correct: "Bathsheba",
         reason: "Bathsheba was the mother of Solomon in 1 Kings 1:11.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1524,7 +1532,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Matthew","Mark", "Paul's letters", "None of the above"],
         correct: "Paul's letters",
         reason: "The earliest writing in the new testament is Paul's letters. An example of Paul's early writings is Thessalonians 1:1.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1532,7 +1540,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Another account of the death of Jesus","A lost book of the Bible", "A collection of Jesus' sayings attributed to the apostle Thomas", "None of the above"],
         correct: "A collection of Jesus' sayings attributed to the apostle Thomas",
         reason: "The gospel of Thomas is A collection of Jesus' sayings attributed to the apostle Thomas that was excluded from biblical canon.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1540,7 +1548,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Because He proclaimed that he was the one sent to be Lord","Because he had told them that they were all blasphemers", "Because he had thrown chairs and pews and destroyed the sanctuary", "Because he urged them to repent of their sins"],
         correct: "Because He proclaimed that he was the one sent to be Lord",
         reason: "They were angered because because He proclaimed that he was the one sent to be Lord in Luke 4:23.",
-        mode: "Medium",
+        mode: "medium",
         category: "History in the Bible"
       },
       {
@@ -1564,7 +1572,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["True","False"],
         correct: "True",
         reason: "True. Christianity emphasizes serving humanity and reducing suffering.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -1572,15 +1580,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["A murderer","A bad brother", "Misled", "A lier"],
         correct: "A murderer",
         reason: "Whoever hates his brother is a murderer in 1 John 3:15.",
-        mode: "Medium",
-        category: "Christian Life based in the Bible"
-      },
-      {
-        question: "Does God want you to be happy?",
-        answers: ["True","False"],
-        correct: "True",
-        reason: "God wants you to be happy in 1 Chronicles 16:27.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -1588,7 +1588,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["A crown of righteousness","A beautiful white horse", "A new name", "Caramel cinnamon rolls"],
         correct: "A crown of righteousness",
         reason: "There is laid up for Paul a crown of righteousness which the Lord will give him in 2 Timothy 4:8.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -1596,7 +1596,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["The love of self","The love of the world", "The love of a spouse", "The love of God"],
         correct: "The love of the world",
         reason: "The love of the world is the correct answer. If something is of the world, it is not of God. This is stated in 1 John 2:16.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -1604,7 +1604,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Fear","Sin", "Anger", "Condemnation"],
         correct: "Fear",
         reason: "Perfect love casts out fear in 1 John 4:18.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -1612,7 +1612,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Life","Broccoli","Death", "Victory"],
         correct: "Death",
         reason: "The grace of God should taste death for every man in Hebrews 2:9.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -1620,7 +1620,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Mount Zion","Jerusalem","Heaven", "Purgatory", "Air"],
         correct: "Air",
         reason: "The living will meet Christ in the air in 1 Thessalonians 4:17.",
-        mode: "Medium",
+        mode: "medium",
         category: "Christian Life based in the Bible"
       },
       {
@@ -1628,7 +1628,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["10","8", "3", "1"],
         correct: "10",
         reason: "Moses received 10 commandments from God in Exodus 20:2-17.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/moses.jpg",
         category: "Questions with images"
       },
@@ -1637,7 +1637,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Jacob","Abraham", "Moses", "Jethro"],
         correct: "Abraham",
         reason: "Abraham received a promise that his children should be in numbers as the stars in heaven from God in Genesis 15:5.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/abraham.jpg",
         category: "Questions with images"
       }, 
@@ -1646,7 +1646,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Colossians","John", "2 John", "Mark"],
         correct: "John",
         reason: "The book of John tells of Jesus's encounter with the Samaritan women at the well in John 4:1-26.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/samaritan.jpg",
         category: "Questions with images"
       }, 
@@ -1655,7 +1655,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Left","Feet", "Back", "Side"],
         correct: "Left",
         reason: "A wise man's heart is at his right hand, but a fool's heart at his left in Ecclesiastes 10:2.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/left.jpg",
         category: "Questions with images"
       },
@@ -1664,7 +1664,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Desolate","Sad", "Lonely", "Parched"],
         correct: "Desolate",
         reason: "He has turned aside my ways and torn me in pieces; He has made me desolate in Lamentations 3:11.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/desolate.jpg",
         category: "Questions with images"
       },
@@ -1673,7 +1673,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Frankincense","Myrrh", "Silver", "Gold"],
         correct: "Silver",
         reason: "Silver was not a gift brought to Jesus by wise men in Matthew 2:11.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/wise.jpg",
         category: "Questions with images"
       },
@@ -1682,7 +1682,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Thomas","Bartholomew", "Simon", "Philip"],
         correct: "Simon",
         reason: "Simon's name was changed to Peter in Matthew 16:18.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/simon.jpg",
         category: "Questions with images"
       },
@@ -1691,7 +1691,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["The 144,000 witnesses","Those who have come out of the great tribulation", "Old Testament saints", "The ones who will return to earth with Christ to battle the beast"],
         correct: "Those who have come out of the great tribulation",
         reason: "Apostle John saw dressed in white robes around the throne of God those who have come out of the great tribulation in Revelation 7:13-14.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/revelation.jpg",
         category: "Questions with images"
       },
@@ -1700,7 +1700,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["He endangered his livelihood","He threatened him", "He tried to baptize him", "He tried to love him"],
         correct: "He endangered his livelihood",
         reason: "Demetrius complained about paul because he endangered his livelihood in Acts Chapter 19:24-25.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/Demetrius.jpg",
         category: "Questions with images"
       },
@@ -1709,7 +1709,7 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: ["Like the glorious body of Jesus","Like a bodybuilder", "Like an angel's", "It's a mystery, no one knows"],
         correct: "Like the glorious body of Jesus",
         reason: "When our bodies are changed, what will they look like Like the glorious body of Jesus. This is stated in Philippians 3:21.",
-        mode: "Medium",
+        mode: "medium",
         image: "images/body.jpg",
         category: "Questions with images"
       },
