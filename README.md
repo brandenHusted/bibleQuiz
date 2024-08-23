@@ -41,7 +41,7 @@ Future plans:
 In the future I want to make catagories for specific questions or just do all
 Implementing any feedback you give me!
 
-This app's goal is for people to learn more about Outreach Christian Church and learn how to get involved and who we are in our community. I hope this small step can have a huge impact, have fun!
+This app's goal is for people to learn more about the Bible and have dun doing it. I hope this small step can have a huge impact, have fun!
 
 Music information:
 Title: Remembered Times
