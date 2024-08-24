@@ -12,7 +12,6 @@ You can get started by following these steps:
 
 1. **Launch the Website:**
    - Double-click on `index.html` to open the main page.
-   - If you don't have Visual Studio or can't start the server, you can skip the login step by directly opening `game.html` to jump straight into the quiz.
 
 ### Setting Up Your Development Environment
 
@@ -71,16 +70,6 @@ Visual Studio Code is a powerful code editor that will help you work with the pr
      ```
 
   This command will clone the repository to your local machine, giving you access to all the code.
-
-#### 4. Start the Server
-
-To test the user login functionality, start the server:
-
-1. Open the terminal in Visual Studio Code.
-2. Navigate to the project folder and type:
-
-   ```bash
-   node server.js
    
 This app's goal is for people to learn more about the Bible and have dun doing it. I hope this small step can have a huge impact, have fun!
 
